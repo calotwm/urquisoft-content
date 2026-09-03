@@ -22,6 +22,7 @@ Cualquier post nuevo debe seguir esta línea visual.
 - Voseo rioplatense con tilde correcta (quedás, estás, deslizá, escribinos).
 - Comillas españolas « ».
 - Estructura del carrusel: portada → mitos (frase tachada en magenta + realidad en teal) → cierre con CTA.
+- Post 4 (comercios de mostrador): problema en magenta (✕), solución en teal (✓), screenshot en marco liquid glass magenta.
 - CTA final: "Escribinos por privado" (sin flecha). CTA de portada: "Deslizá para ver la realidad →".
 - Slide de cierre: logo + eslogan con highlight en teal + CTA.
 
@@ -29,16 +30,21 @@ Cualquier post nuevo debe seguir esta línea visual.
 
 ```
 Urquisoft-Carrusel/
-├── build.js          # Generador: define CSS y contenido de los 6 slides
-├── src/              # HTML generados (1 por slide)
-├── img/              # PNG finales 1080×1350 listos para subir
+├── brand.js          # Motor compartido: CSS del kit + generador de slides
+├── build.js          # Post 3 — "El mito de esto lo manejo con Excel"
+├── build-post4.js    # Post 4 — "Kiosco, carnicería, despensa: el mismo problema, la misma solución"
+├── src/              # HTML del post 3 (1 por slide)
+├── img/              # PNG del post 3, 1080×1350
+├── post4/src/        # HTML del post 4
+├── post4/img/        # PNG del post 4
 └── assets/           # Logo (aakdsada-crop.png, recortado al contenido real)
 ```
 
 ## Cómo regenerar
 
 ```bash
-node build.js
+node build.js        # post 3 → src/ + img/
+node build-post4.js  # post 4 → post4/src/ + post4/img/
 ```
 
 Los HTML se regeneran en `src/`. Para renderizar a PNG con Chrome headless:
