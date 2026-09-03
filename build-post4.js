@@ -5,7 +5,7 @@ const { writeSlides } = require('./brand');
 
 // Captura real del sistema para el slide 4. Dejá vacío para usar el placeholder;
 // cuando tengas la imagen poné la ruta relativa (ej: "../assets/pantalla.png").
-const SHOT = '';
+const SHOT = '../assets/bibliotheca.png';
 
 const EXTRA = `
 .cover h1{font-size:80px}
