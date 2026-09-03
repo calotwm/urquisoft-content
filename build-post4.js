@@ -74,8 +74,8 @@ const slides = [
       body: `    <div class="pill pill-reality">La solución</div>
     <div class="chips">
       <div class="chip"><span class="check">✓</span><span class="t">Caja</span></div>
-      <div class="chip"><span class="check">✓</span><span class="t">Ticket AFIP</span></div>
       <div class="chip"><span class="check">✓</span><span class="t">Inventario</span></div>
+      <div class="chip"><span class="check">✓</span><span class="t">Clientes</span></div>
       <div class="chip"><span class="check">✓</span><span class="t">Reportes</span></div>
     </div>
     <div class="statement">Todo en <span class="teal">un solo sistema</span>.</div>`
