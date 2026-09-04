@@ -11,10 +11,10 @@ module.exports = [
       { type: 'dato', num: '+214%', label: 'El ecommerce argentino creció en 2025', small: 'Y 2 de cada 3 compras se hacen desde el celular.' },
       { type: 'problem', pill: 'El problema', statement: 'Depender solo del mostrador<br>limita tus ventas.', lead: 'Los marketplaces se llevan hasta 30% de comisión.' },
       { type: 'solution', pill: 'La solución', chips: ['Tienda online', 'Stock sincronizado', 'Precios del sistema'], statement: 'Tu tienda integrada con tu <span class="teal">sistema</span>.' },
-      { type: 'rows', items: [
-        { k: 'l', v: '✓', t: 'El cliente ve el catálogo', small: 'Con tus productos, tus precios.' },
-        { k: 'l', v: '✓', t: 'Pide por la web o por mensaje' },
-        { k: 'l', v: '✓', t: 'Vos lo ves todo en un solo lugar' }
+      { type: 'flow', steps: [
+        { t: 'El cliente ve el catálogo', small: 'Con tus productos' },
+        { t: 'Pide por la web o mensaje', small: 'Cuando quiere' },
+        { t: 'Vos lo ves todo', small: 'En un solo lugar' }
       ] },
       { type: 'close', pill: 'Tu tienda, tus datos', lines: ['Sin marketplaces, sin comisiones.', { grad: 'Tu tienda. Tus datos.' }], cta: 'Escribinos y te mostramos tu tienda', sub: 'Proyecto nuevo · 2026 · urquisoft.com' }
     ],
@@ -40,10 +40,10 @@ module.exports = [
     title: 'Estos son los rubros que ya dejaron el Excel',
     slides: [
       { type: 'cover', kicker: 'Prueba social', lines: ['ESTOS RUBROS', 'YA DEJARON', 'EL <span class="strike">EXCEL</span>'], sub: 'Cada rubro, con su solución a medida.', cta: 'Deslizá para ver la lista' },
-      { type: 'rows', items: [{ k: 'l', v: '✓', t: 'Librerías', small: 'Inventario, ventas POS, factura PDF, proveedores y reportes.' }] },
-      { type: 'rows', items: [{ k: 'l', v: '✓', t: 'Lubricentros', small: 'Orden por servicio, vehículo y cliente.' }] },
-      { type: 'rows', items: [{ k: 'l', v: '✓', t: 'Distribución de alimentos', small: 'Pedidos y reparto a domicilio, del pedido a la entrega.' }] },
-      { type: 'rows', items: [{ k: 'l', v: '✓', t: 'Mayoristas y estudios contables', small: 'Stock, pedidos y extractos convertidos en asientos.' }] },
+      { type: 'photocard', label: 'Librerías', photo: '', chips: ['Inventario', 'Ventas POS', 'Factura PDF', 'Reportes'] },
+      { type: 'photocard', label: 'Lubricentros', photo: '', chips: ['Servicios', 'Vehículos', 'Clientes'] },
+      { type: 'photocard', label: 'Distribución de alimentos', photo: '', chips: ['Pedidos', 'Reparto a domicilio'] },
+      { type: 'photocard', label: 'Mayoristas y estudios', photo: '', chips: ['Stock', 'Pedidos', 'Extractos a asientos'] },
       { type: 'close', pill: 'El próximo puede ser el tuyo', lines: ['Cada negocio es distinto.', { grad: 'El tuyo puede ser el próximo.' }], cta: 'Escribinos y lo armamos a tu medida', sub: '¿Tu rubro no está en la lista? Lo charlamos · urquisoft.com' }
     ],
     caption: 'Estos rubros ya dejaron el Excel. No vendemos un software único para todos: Librerías: inventario, POS y factura PDF. Lubricentros: servicios y clientes ordenados. Distribución: pedidos y reparto sin papel. Estudios: extractos convertidos en asientos. Escuchamos tu problema y armamos la solución que necesitas. Si tu rubro no está en la lista, lo charlamos. Escribinos.',
@@ -67,7 +67,7 @@ module.exports = [
     id: 5, theme: 'light', tag: 'INTERACCIÓN · 2026',
     title: '¿Cuántas horas por semana perdés anotando a mano?',
     slides: [
-      { type: 'cover', kicker: 'Pregunta del día', lines: ['¿CUÁNTAS HORAS', 'POR SEMANA PERDÉS', 'ANOTANDO A MANO?'], sub: 'Respuesta honesta abajo ↓', cta: 'Pensalo y deslizá' },
+      { type: 'cover', coverStyle: 'left', ghost: '?', kicker: 'Pregunta del día', lines: ['¿CUÁNTAS HORAS', 'POR SEMANA PERDÉS', 'ANOTANDO A MANO?'], sub: 'Respuesta honesta abajo ↓', cta: 'Pensalo y deslizá' },
       { type: 'rows', items: [{ k: 'l', v: '✕', t: 'Ventas, stock, deudas y pedidos...', small: 'Anotados en papel o en la cabeza.' }] },
       { type: 'scene', q: '15 minutos acá, media hora allá...', small: 'Al final del mes, ¿cuántas horas son?' },
       { type: 'quote', lines: ['Ese tiempo <span class="mag">no se factura</span>.', 'Es tiempo que el negocio pierde.'] },
@@ -124,7 +124,7 @@ module.exports = [
     id: 9, theme: 'dark', tag: 'PROCESO · 2026',
     title: 'Del cuaderno a la pantalla en 4 pasos',
     slides: [
-      { type: 'cover', kicker: 'Nuestro proceso', lines: ['DEL CUADERNO', 'A LA PANTALLA', 'EN <span class="teal">4 PASOS</span>'], sub: 'Cambiar da miedo. Por eso es simple.', cta: 'Deslizá para ver los pasos' },
+      { type: 'cover', coverStyle: 'left', ghost: '4', kicker: 'Nuestro proceso', lines: ['DEL CUADERNO', 'A LA PANTALLA', 'EN <span class="teal">4 PASOS</span>'], sub: 'Cambiar da miedo. Por eso es simple.', cta: 'Deslizá para ver los pasos' },
       { type: 'rows', items: [{ k: 'n', v: '1', t: 'Reunión inicial sin cargo', small: 'Conocemos tu negocio y detectamos dónde se pierde plata.' }] },
       { type: 'rows', items: [{ k: 'n', v: '2', t: 'Propuesta a tu medida', small: 'Solución, tiempos y precio final, sin compromiso.' }] },
       { type: 'rows', items: [{ k: 'n', v: '3', t: 'Instalación y capacitación', small: 'Migramos TUS datos, configuramos todo y te enseñamos a usarlo.' }] },
@@ -138,7 +138,7 @@ module.exports = [
     id: 10, theme: 'light', tag: 'HUMOR · 2026',
     title: 'POV: el dueño cerrando la caja un viernes',
     slides: [
-      { type: 'cover', kicker: 'POV · Viernes', lines: ['POV: EL DUEÑO', 'CERRANDO LA CAJA', 'UN <span class="mag">VIERNES</span>'], sub: 'Sin drama, prometemos.', cta: 'Deslizá para sufrir con él' },
+      { type: 'cover', coverStyle: 'quote', kicker: 'POV · Viernes', lines: ['POV: EL DUEÑO', 'CERRANDO LA CAJA', 'UN <span class="mag">VIERNES</span>'], sub: 'Sin drama, prometemos.', cta: 'Deslizá para sufrir con él' },
       { type: 'scene', q: 'Papelitos, tickets sueltos y...', small: '«¿Cuánto vendí hoy?... no sé.»' },
       { type: 'scene', q: '«Un momento, ¿este ticket es de la semana pasada?»' },
       { type: 'scene', q: 'Resultado: 40 minutos y un total que no cierra.', small: 'El clásico.' },
@@ -162,7 +162,7 @@ module.exports = [
     hashtags: ['#pymes', '#comercios', '#stock', '#cobranzas', '#gestion']
   },
   {
-    id: 12, theme: 'dark', tag: 'SOLUCIÓN POR RUBRO · 2026',
+    id: 12, theme: 'dark', tag: 'SOLUCIÓN POR RUBRO · 2026', extraCss: '.cover h1{font-size:68px}',
     title: 'Talleres y técnicos: adiós a los papelitos de presupuesto',
     slides: [
       { type: 'cover', kicker: 'Solución por rubro', lines: ['TALLERES Y TÉCNICOS:', 'ADIÓS A LOS', 'PAPELITOS DE <span class="mag">PRESUPUESTO</span>'], sub: 'Órdenes de trabajo y servicio técnico.', cta: 'Deslizá para ver la solución' },
@@ -176,7 +176,7 @@ module.exports = [
     hashtags: ['#serviciotecnico', '#talleres', '#presupuestos', '#gestion', '#pymes']
   },
   {
-    id: 13, theme: 'dark', tag: 'CASO ESTRELLA · 2026', extraCss: '.cover h1{font-size:60px}',
+    id: 13, theme: 'dark', tag: 'CASO ESTRELLA · 2026', extraCss: '.cover h1{font-size:52px}',
     title: 'Un estudio contable cargaba extractos a mano, movimiento por movimiento',
     slides: [
       { type: 'cover', kicker: 'Caso estrella · Estudio contable', lines: ['UN ESTUDIO CONTABLE', 'CARGABA EXTRACTOS', 'A MANO, MOVIMIENTO POR <span class="mag">MOVIMIENTO</span>'], sub: 'Extractos a asientos, automático.', cta: 'Deslizá para ver el caso' },
@@ -198,7 +198,7 @@ module.exports = [
     id: 14, theme: 'dark', tag: 'PRECIOS · 2026',
     title: 'Precios claros, sin letra chica',
     slides: [
-      { type: 'cover', kicker: 'Transparencia', lines: ['PRECIOS CLAROS,', 'SIN <span class="strike">LETRA CHICA</span>'], sub: 'Sin sorpresas ni costos ocultos.', cta: 'Deslizá para ver el desglose' },
+      { type: 'cover', coverStyle: 'left', ghost: '$', kicker: 'Transparencia', lines: ['PRECIOS CLAROS,', 'SIN <span class="strike">LETRA CHICA</span>'], sub: 'Sin sorpresas ni costos ocultos.', cta: 'Deslizá para ver el desglose' },
       { type: 'rows', items: [{ k: 'l', v: '✓', t: 'Instalación: pago único', small: 'Migración de datos, configuración y capacitación.' }] },
       { type: 'rows', items: [{ k: 'l', v: '✓', t: 'Mantenimiento mensual', small: 'Soporte, actualizaciones y copias de seguridad.' }] },
       { type: 'rows', items: [
@@ -241,7 +241,7 @@ module.exports = [
     hashtags: ['#deudores', '#cobranzas', '#pymes', '#whatsapp', '#gestion']
   },
   {
-    id: 17, theme: 'light', tag: 'FEATURE POR RUBRO · 2026',
+    id: 17, theme: 'light', tag: 'FEATURE POR RUBRO · 2026', extraCss: '.cover h1{font-size:64px}',
     title: 'Peluquerías y barberías: turnos que se avisan solos',
     slides: [
       { type: 'cover', kicker: 'Agenda de turnos', lines: ['PELUQUERÍAS Y BARBERÍAS:', 'TURNOS QUE SE', '<span class="teal">AVISAN SOLOS</span>'], sub: 'Menos huecos, más horas facturadas.', cta: 'Deslizá para ver la agenda' },
@@ -275,7 +275,7 @@ module.exports = [
     id: 19, theme: 'dark', tag: 'VALORES · 2026',
     title: 'Vos sos el dueño de tus datos',
     slides: [
-      { type: 'cover', kicker: 'Nuestro principio', lines: ['VOS SOS EL', 'DUEÑO DE', 'TUS <span class="teal">DATOS</span>'], sub: 'Una regla que no negociamos.', cta: 'Deslizá para conocerla' },
+      { type: 'cover', coverStyle: 'quote', kicker: 'Nuestro principio', lines: ['VOS SOS EL', 'DUEÑO DE', 'TUS <span class="teal">DATOS</span>'], sub: 'Una regla que no negociamos.', cta: 'Deslizá para conocerla' },
       { type: 'rows', items: [{ k: 'l', v: '✓', t: 'Tu información es tuya, siempre', small: 'Productos, clientes, ventas e historial.' }] },
       { type: 'rows', items: [{ k: 'l', v: '✓', t: 'Nosotros la cuidamos', small: 'Copias de seguridad incluidas en el mantenimiento.' }] },
       { type: 'rows', items: [{ k: 'l', v: '✓', t: 'Si mañana querés exportar todo, se exporta', small: 'Sin retenerte nada.' }] },
@@ -288,7 +288,7 @@ module.exports = [
     id: 20, theme: 'light', tag: 'ENCUESTA · 2026',
     title: '¿Qué es lo que más te cuesta de tu negocio?',
     slides: [
-      { type: 'cover', kicker: 'Encuesta de cierre de mes', lines: ['¿QUÉ ES LO QUE MÁS', 'TE CUESTA DE', 'TU <span class="mag">NEGOCIO</span>?'], sub: 'Respondé con la letra en comentarios.', cta: 'Deslizá y elegí' },
+      { type: 'cover', coverStyle: 'left', ghost: 'A', kicker: 'Encuesta de cierre de mes', lines: ['¿QUÉ ES LO QUE MÁS', 'TE CUESTA DE', 'TU <span class="mag">NEGOCIO</span>?'], sub: 'Respondé con la letra en comentarios.', cta: 'Deslizá y elegí' },
       { type: 'options', items: [{ v: 'A', t: 'El stock: nunca sé cuánto me queda.' }] },
       { type: 'options', items: [{ v: 'B', t: 'La cobranza: me deben y no me acuerdo cuánto.' }] },
       { type: 'options', items: [{ v: 'C', t: 'Los turnos: se me superponen y los clientes no aparecen.' }] },

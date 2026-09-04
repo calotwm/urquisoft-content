@@ -33,13 +33,17 @@ function rowsHtml(items) {
 
 function renderSlide(s) {
   switch (s.type) {
-    case 'cover':
-      return { cls: 'cover', body: `    <div class="kicker">${s.kicker}</div>
+    case 'cover': {
+      const styleCls = s.coverStyle === 'left' ? ' cover-left' : (s.coverStyle === 'quote' ? ' cover-quote' : '');
+      const ghost = s.ghost ? `\n    <div class="ghost-char">${s.ghost}</div>` : '';
+      const cls = s.coverStyle === 'left' ? 'cover left' : (s.coverStyle === 'quote' ? 'cover quote' : 'cover');
+      return { cls, body: `    <div class="kicker">${s.kicker}</div>${ghost}
     <h1>
       ${linesHtml(s.lines)}
     </h1>
     <div class="sub">${s.sub}</div>
     <div class="cta">${s.cta} <span>→</span></div>` };
+    }
     case 'dato':
       return { cls: 'myth', body: `    <div class="statrow"><div class="num">${s.num}</div><div class="lab">${s.label}<small>${s.small || ''}</small></div></div>` };
     case 'problem':
@@ -72,6 +76,26 @@ ${s.src ? `      <img src="${s.src}" alt="Pantalla real del sistema">` : `      
     }
     case 'options':
       return { cls: 'myth', body: `    <div class="rows">${s.items.map(it => `<div class="optrow"><span class="letter">${it.v}</span><div class="t">${it.t}</div></div>`).join('')}</div>` };
+    case 'photocard': {
+      const photo = s.photo
+        ? `<img src="${s.photo}" alt="${s.label}">`
+        : `<div class="ph-label">Foto del rubro</div>`;
+      const chips = s.chips
+        ? `<div class="chips small">${s.chips.map(t => `<div class="chip"><span class="check">✓</span><span class="t">${t}</span></div>`).join('')}</div>`
+        : '';
+      return { cls: 'myth', body: `    <div class="photo-card">
+      <div class="photo">${photo}</div>
+      <div class="meta"><div class="pill pill-reality">${s.label}</div></div>
+${chips}
+    </div>` };
+    }
+    case 'flow': {
+      const steps = s.steps.map((st, i) => `<div class="fstep"><span class="fnum">${i + 1}</span><div class="ft">${st.t}${st.small ? `<small>${st.small}</small>` : ''}</div></div>`);
+      const arrows = steps.slice(0, -1).map((_, i) => `<div class="farr">→</div>`);
+      const flow = [];
+      steps.forEach((st, i) => { flow.push(st); if (i < steps.length - 1) flow.push(arrows[i]); });
+      return { cls: 'myth', body: `    <div class="flow">${flow.join('')}</div>` };
+    }
     default:
       throw new Error('tipo de slide desconocido: ' + s.type);
   }
