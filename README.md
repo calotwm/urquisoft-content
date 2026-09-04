@@ -84,4 +84,5 @@ Los HTML se regeneran en `src/`. Para renderizar a PNG con Chrome headless:
 
 ## Pendiente
 
-- `urquisoft.com` en el sub del slide de cierre es placeholder: reemplazar por el handle/URL real.
+- POST 13 (estudio contable): **en pausa** hasta pedir permiso al cliente para publicar (se puede decir "un estudio contable" sin nombrarlo).
+- `urquisoft.com` en los subs es placeholder: reemplazar por el handle/URL real.
