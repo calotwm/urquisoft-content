@@ -8,7 +8,7 @@ module.exports = [
     title: 'Tu comercio puede vender online sin dejar el mostrador',
     slides: [
       { type: 'cover', kicker: 'Proyecto nuevo · 2026', lines: ['TU COMERCIO', 'PUEDE VENDER ONLINE', 'SIN DEJAR EL <span class="mag">MOSTRADOR</span>'], sub: 'Tu tienda propia, integrada con tu sistema.', cta: 'Deslizá para ver la oportunidad' },
-      { type: 'dato', num: '+214%', label: 'El ecommerce argentino creció en 2025', small: 'Y 2 de cada 3 compras se hacen desde el celular.' },
+      { type: 'metrics', ctx: 'El ecommerce argentino creció en 2025', num: '+214%', cap: 'Y 2 de cada 3 compras se hacen desde el celular.' },
       { type: 'problem', pill: 'El problema', statement: 'Depender solo del mostrador<br>limita tus ventas.', lead: 'Los marketplaces se llevan hasta 30% de comisión.' },
       { type: 'solution', pill: 'La solución', chips: ['Tienda online', 'Stock sincronizado', 'Precios del sistema'], statement: 'Tu tienda integrada con tu <span class="teal">sistema</span>.' },
       { type: 'flow', steps: [
@@ -28,7 +28,7 @@ module.exports = [
       { type: 'cover', kicker: 'Serie · Comercios de mostrador', lines: ['KIOSCO, CARNICERÍA,', 'DESPENSA...', 'EL MISMO <span class="mag">PROBLEMA</span>'], sub: '…y la misma solución.', cta: 'Deslizá para ver cómo se resuelve' },
       { type: 'problem', pill: 'El problema', chips: ['Ticket', 'Stock', 'Caja'], lead: 'Cada cosa en un lugar distinto.', statement: 'El cierre <span class="mag">no cierra</span>.' },
       { type: 'solution', pill: 'La solución', chips: ['Caja', 'Inventario', 'Clientes', 'Reportes'], statement: 'Todo en <span class="teal">un solo sistema</span>.' },
-      { type: 'shot', pill: 'Pantalla real', src: '../../assets/bibliotheca.png', sub: 'Una pantalla. Todo el negocio.' },
+      { type: 'shot', pill: 'Pantalla real', src: '../../assets/bibliotheca.png', sub: 'Una pantalla. Todo el negocio.', chrome: true, url: 'app.urquisoft.com' },
       { type: 'quote', lines: ['El reporte de ventas del día, <span class="teal">en segundos</span>.', 'No en <span class="strike2">la libreta</span>.'] },
       { type: 'close', pill: 'A tu medida', lines: ['Contanos cómo trabajás hoy', { grad: 'y te armamos la solución a tu medida.' }], cta: 'Escribinos y te lo mostramos aplicado a tu negocio', sub: 'Respondemos con una demo · urquisoft.com' }
     ],
@@ -40,10 +40,10 @@ module.exports = [
     title: 'Estos son los rubros que ya dejaron el Excel',
     slides: [
       { type: 'cover', kicker: 'Prueba social', lines: ['ESTOS RUBROS', 'YA DEJARON', 'EL <span class="strike">EXCEL</span>'], sub: 'Cada rubro, con su solución a medida.', cta: 'Deslizá para ver la lista' },
-      { type: 'photocard', label: 'Librerías', photo: '', chips: ['Inventario', 'Ventas POS', 'Factura PDF', 'Reportes'] },
-      { type: 'photocard', label: 'Lubricentros', photo: '', chips: ['Servicios', 'Vehículos', 'Clientes'] },
-      { type: 'photocard', label: 'Distribución de alimentos', photo: '', chips: ['Pedidos', 'Reparto a domicilio'] },
-      { type: 'photocard', label: 'Mayoristas y estudios', photo: '', chips: ['Stock', 'Pedidos', 'Extractos a asientos'] },
+      { type: 'photocard', label: 'Librerías', photo: '', tags: ['RUBRO #1'], chips: ['Inventario', 'Ventas POS', 'Factura PDF', 'Reportes'] },
+      { type: 'photocard', label: 'Lubricentros', photo: '', tags: ['RUBRO #2'], chips: ['Servicios', 'Vehículos', 'Clientes'] },
+      { type: 'photocard', label: 'Distribución de alimentos', photo: '', tags: ['RUBRO #3'], chips: ['Pedidos', 'Reparto a domicilio'] },
+      { type: 'photocard', label: 'Mayoristas y estudios', photo: '', tags: ['RUBRO #4'], chips: ['Stock', 'Pedidos', 'Extractos a asientos'] },
       { type: 'close', pill: 'El próximo puede ser el tuyo', lines: ['Cada negocio es distinto.', { grad: 'El tuyo puede ser el próximo.' }], cta: 'Escribinos y lo armamos a tu medida', sub: '¿Tu rubro no está en la lista? Lo charlamos · urquisoft.com' }
     ],
     caption: 'Estos rubros ya dejaron el Excel. No vendemos un software único para todos: Librerías: inventario, POS y factura PDF. Lubricentros: servicios y clientes ordenados. Distribución: pedidos y reparto sin papel. Estudios: extractos convertidos en asientos. Escuchamos tu problema y armamos la solución que necesitas. Si tu rubro no está en la lista, lo charlamos. Escribinos.',
@@ -81,7 +81,7 @@ module.exports = [
     title: 'Cobrá con QR y dejá de perseguir la plata',
     slides: [
       { type: 'cover', kicker: 'Proyecto nuevo · 2026', lines: ['COBRÁ CON QR', 'Y DEJÁ DE', 'PERSEGUIR LA <span class="mag">PLATA</span>'], sub: 'QR interoperable, integrado a tu caja.', cta: 'Deslizá para ver cómo funciona' },
-      { type: 'dato', num: '2.7x', label: 'Las pymes que digitalizan sus cobros', small: 'crecen más rápido que las que no.' },
+      { type: 'metrics', ctx: 'Las pymes que digitalizan sus cobros', num: '2.7x', cap: 'crecen más rápido que las que no.' },
       { type: 'problem', pill: 'El problema', statement: 'Efectivo que no se cuenta,<br>transferencias que no se registran.', lead: 'La caja no cierra y no sabés por qué.' },
       { type: 'solution', pill: 'La solución', chips: ['QR interoperable', 'Integrado a tu caja', 'Registra solo'], statement: 'El cliente paga con su app y el sistema <span class="teal">registra solo</span>.' },
       { type: 'close', pill: 'Cada cobro, registrado', lines: ['Cada cobro, registrado.', { grad: 'La caja cierra sola.' }], cta: 'Escribinos y te mostramos cómo funciona', sub: 'Proyecto nuevo · 2026 · urquisoft.com' }
@@ -95,8 +95,12 @@ module.exports = [
     slides: [
       { type: 'cover', kicker: 'Feature · Deudores y cobranza', lines: ['¿SABÍAS QUE TU', 'SISTEMA PUEDE', '<span class="teal">COBRAR</span> POR VOS?'], sub: 'Con recordatorios automáticos.', cta: 'Deslizá para ver el módulo' },
       { type: 'problem', pill: 'El problema', statement: 'La libreta de deudores: se vende a crédito, se anota...', lead: 'Y después... se olvida.' },
-      { type: 'solution', pill: 'La solución', statement: 'Deuda por cliente y antigüedad, <span class="teal">siempre al día</span>.' },
-      { type: 'rows', items: [{ k: 'l', v: '✓', t: 'Recordatorios AUTOMÁTICOS por WhatsApp', small: 'El sistema avisa. Vos no perseguís a nadie.' }] },
+      { type: 'search', query: '¿cómo cobrar sin perseguir a nadie?', results: [
+        { ic: '✓', t: 'Deuda por cliente', small: 'Siempre al día' },
+        { ic: '✓', t: 'Antigüedad visible', small: 'Desde cuándo te deben' },
+        { ic: '✓', t: 'Recordatorio automático', small: 'El sistema avisa por vos' }
+      ] },
+      { type: 'quote', lines: ['El sistema avisa.', 'Vos no <span class="mag">perseguís</span> a nadie.'] },
       { type: 'close', pill: 'Menos perseguir, más cobrar', lines: ['Cobra lo que te deben', { grad: 'sin perseguir a nadie.' }], cta: 'Escribinos y te mostramos el módulo funcionando', sub: 'urquisoft.com' }
     ],
     caption: '¿Sabías que tu sistema puede cobrar por vos? Vender a crédito es normal. Lo que no es normal es perseguir la libreta: Deudas que se olvidan. Clientes que no se acuerdan. Mensajes uno por uno a mano. Tu sistema te muestra cuánto te debe cada cliente, desde cuándo, y manda recordatorios automáticos por WhatsApp. Menos perseguir, más cobrar. Escribinos y te mostramos el módulo funcionando.',
@@ -139,7 +143,7 @@ module.exports = [
     title: 'POV: el dueño cerrando la caja un viernes',
     slides: [
       { type: 'cover', coverStyle: 'quote', kicker: 'POV · Viernes', lines: ['POV: EL DUEÑO', 'CERRANDO LA CAJA', 'UN <span class="mag">VIERNES</span>'], sub: 'Sin drama, prometemos.', cta: 'Deslizá para sufrir con él' },
-      { type: 'scene', q: 'Papelitos, tickets sueltos y...', small: '«¿Cuánto vendí hoy?... no sé.»' },
+      { type: 'scene', q: 'Papelitos, tickets sueltos y...', small: '«¿Cuánto vendí hoy?... no sé.»', author: 'EL DUEÑO', role: 'POV' },
       { type: 'scene', q: '«Un momento, ¿este ticket es de la semana pasada?»' },
       { type: 'scene', q: 'Resultado: 40 minutos y un total que no cierra.', small: 'El clásico.' },
       { type: 'close', pill: 'Con un sistema', lines: ['El cierre del día son 5 minutos.', { grad: 'Sin drama.' }], cta: 'Escribinos y probás el cierre en serio', sub: 'Contanos: ¿cuántos minutos te lleva? · urquisoft.com' }
@@ -217,7 +221,7 @@ module.exports = [
     title: 'Tu WhatsApp puede vender mientras dormís',
     slides: [
       { type: 'cover', kicker: 'Proyecto nuevo · WhatsApp Commerce', lines: ['TU WHATSAPP PUEDE', 'VENDER MIENTRAS', '<span class="teal">DORMÍS</span>'], sub: 'Catálogo, pedidos y cobro en el chat.', cta: 'Deslizá para ver cómo' },
-      { type: 'dato', num: '78%', label: 'De los argentinos prefiere hacer negocios por WhatsApp', small: 'Es tu canal de ventas más importante.' },
+      { type: 'metrics', ctx: 'De los argentinos prefiere hacer negocios por WhatsApp', num: '78%', cap: 'Es tu canal de ventas más importante.' },
       { type: 'problem', pill: 'El problema', statement: 'Consultas que nadie responde fuera de horario.', lead: 'Pedidos que se pierden entre mensajes.' },
       { type: 'solution', pill: 'La solución', chips: ['Catálogo conectado', 'Pedidos que llegan solos', 'Cobro con link de pago'], statement: 'Tu WhatsApp conectado a tu <span class="teal">sistema</span>.' },
       { type: 'rows', items: [{ k: 'l', v: '✓', t: 'Cada pedido se registra solo', small: 'Stock, cliente y venta, sin copiar y pegar.' }] },

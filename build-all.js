@@ -57,16 +57,30 @@ function renderSlide(s) {
     <div class="statement">${s.statement}</div>` };
     case 'rows':
       return { cls: 'myth', body: `    ${rowsHtml(s.items)}` };
-    case 'scene':
-      return { cls: 'myth', body: `    <div class="scene"><div class="q">${s.q}${s.small ? `<small>${s.small}</small>` : ''}</div></div>` };
+    case 'scene': {
+      const author = s.author ? `<div class="author"><span class="avatar">${s.author[0]}</span><div class="who">${s.author}<small>${s.role || 'POV'}</small></div></div>` : '';
+      return { cls: 'myth', body: `    <div class="scene"><div class="q">${s.q}${s.small ? `<small>${s.small}</small>` : ''}</div>${author}</div>` };
+    }
+    case 'quoteauth':
+      return { cls: 'myth', body: `    <div class="quoteauth">
+      <div class="marks">«</div>
+      <div class="q">${s.lines.join('<br>')}</div>
+      <div class="author"><span class="avatar">${s.initials}</span><div class="who">${s.author}<small>${s.role}</small></div></div>
+    </div>` };
     case 'quote':
       return { cls: 'myth', body: `    <div class="bigq">${s.lines.join('<br>')}</div>` };
-    case 'shot':
+    case 'shot': {
+      const shotInner = s.src
+        ? (s.chrome
+          ? `<div class="browser"><div class="bar"><span class="dots"><i></i><i></i><i></i></span><div class="url">${s.url || 'app.urquisoft.com'}</div></div><img src="${s.src}" alt="Pantalla real del sistema"></div>`
+          : `<img src="${s.src}" alt="Pantalla real del sistema">`)
+        : `<div class="ph">Pantalla real</div><div class="ph2">Captura del sistema — pendiente</div>`;
       return { cls: 'myth', body: `    <div class="pill pill-reality">${s.pill}</div>
     <div class="shot">
-${s.src ? `      <img src="${s.src}" alt="Pantalla real del sistema">` : `      <div class="ph">Pantalla real</div><div class="ph2">Captura del sistema — pendiente</div>`}
+      ${shotInner}
     </div>
     <div class="screen-sub">${s.sub}</div>` };
+    }
     case 'close': {
       const h2 = s.lines.map(ln => typeof ln === 'object' ? `<span class="grad">${ln.grad}</span>` : ln).join('<br>');
       return { cls: 'close', body: `    <div class="pill pill-reality">${s.pill}</div>
@@ -80,11 +94,14 @@ ${s.src ? `      <img src="${s.src}" alt="Pantalla real del sistema">` : `      
       const photo = s.photo
         ? `<img src="${s.photo}" alt="${s.label}">`
         : `<div class="ph-label">Foto del rubro</div>`;
+      const tags = s.tags
+        ? s.tags.map((t, i) => `<span class="tag t${i + 1}">${t}</span>`).join('')
+        : '';
       const chips = s.chips
         ? `<div class="chips small">${s.chips.map(t => `<div class="chip"><span class="check">✓</span><span class="t">${t}</span></div>`).join('')}</div>`
         : '';
       return { cls: 'myth', body: `    <div class="photo-card">
-      <div class="photo">${photo}</div>
+      <div class="photo${tags ? ' tagged' : ''}">${photo}${tags}</div>
       <div class="meta"><div class="pill pill-reality">${s.label}</div></div>
 ${chips}
     </div>` };
@@ -95,6 +112,23 @@ ${chips}
       const flow = [];
       steps.forEach((st, i) => { flow.push(st); if (i < steps.length - 1) flow.push(arrows[i]); });
       return { cls: 'myth', body: `    <div class="flow">${flow.join('')}</div>` };
+    }
+    case 'metrics': {
+      const points = s.series || [0, 14, 10, 26, 22, 40, 34, 58, 52, 74, 66, 88];
+      const max = Math.max(...points);
+      const pts = points.map((v, i) => `${(i * (600 / (points.length - 1))).toFixed(0)},${(140 - (v / max) * 120).toFixed(0)}`).join(' ');
+      return { cls: 'myth', body: `    <div class="metrics">
+      <div class="ctx">${s.ctx}</div>
+      <div class="num">${s.num}${s.suffix ? `<small>${s.suffix}</small>` : ''}</div>
+      <div class="chart"><svg viewBox="0 0 600 160" preserveAspectRatio="none"><polygon points="0,160 ${pts} 600,160" fill="rgba(76,194,163,0.18)"/><polyline points="${pts}" fill="none" stroke="#4CC2A3" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="${(600).toFixed(0)}" cy="${(140 - (points[points.length - 1] / max) * 120).toFixed(0)}" r="8" fill="#CC007E"/></svg></div>
+      <div class="cap">${s.cap}</div>
+    </div>` };
+    }
+    case 'search': {
+      return { cls: 'myth', body: `    <div class="search">
+      <div class="bar"><span class="mag"></span><div class="q">${s.query}</div><span class="cursor"></span></div>
+      <div class="results">${s.results.map(r => `<div class="res"><span class="ri">${r.ic || '→'}</span><div class="rt">${r.t}${r.small ? `<small>${r.small}</small>` : ''}</div></div>`).join('')}</div>
+    </div>` };
     }
     default:
       throw new Error('tipo de slide desconocido: ' + s.type);
