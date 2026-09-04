@@ -44,10 +44,14 @@ Urquisoft-Carrusel/
 ## Cómo regenerar
 
 ```bash
-node build.js        # post 3 → src/ + img/
-node build-post4.js  # post 4 → post4/src/ + post4/img/
-node build-all.js    # plan v5 → posts/post-XX/src/ + caption.txt (luego renderizar con Chrome)
+node build.js         # post 3 → src/ + img/
+node build-post4.js   # post 4 → post4/src/ + post4/img/
+node build-all.js     # plan v5 → posts/post-XX/src/ + caption.txt (luego renderizar con Chrome)
+node build-singles.js # singles → singles/single-XX/ (luego renderizar)
+node build-stories.js # historias → stories/story-XX/ (luego renderizar)
 ```
+
+Los HTML se regeneran por builder. Para renderizar a PNG con Chrome headless (ajustá window-size: 1080,1350 para feed; 1080,1920 para historias):
 
 ## Índice del plan v5 (20 posts)
 
@@ -75,6 +79,32 @@ node build-all.js    # plan v5 → posts/post-XX/src/ + caption.txt (luego rende
 | 20 | ¿Qué es lo que más te cuesta de tu negocio? | Encuesta | **light** |
 
 Reglas aplicadas: sin AFIP, voseo con tilde, « », CTA único "Escribinos y...", 5 hashtags sin #urquisoft, emojis a agregar al publicar.
+
+## Temas disponibles
+
+| Tema | Fondo | Texto | Uso |
+|---|---|---|---|
+| dark | `#22181C` + glows magenta | blanco | default |
+| light | `#F6F3F5` | `#241A1F` | posts 5, 6, 10, 17, 20 + singles/historias |
+| magenta | `#CC007E` + glows oscuros | negro (`#161219`) | singles e historias seleccionadas |
+
+## Posteos de imagen única (no carrusel)
+
+`singles/single-01..26` — 20 ideas nuevas + 6 conversiones de carruseles del plan. Generados por `build-singles.js` (datos en `singles.js`). 9 dark / 8 light / 9 magenta.
+
+## Historias 1080×1920
+
+`stories/story-01..15` — frases de la línea Urquisoft en los 3 temas. Generadas por `build-stories.js` (datos en `stories.js`). 5 dark / 5 light / 5 magenta.
+
+## Cómo regenerar
+
+```bash
+node build.js         # post 3 → src/ + img/
+node build-post4.js   # post 4 → post4/src/ + post4/img/
+node build-all.js     # plan v5 → posts/post-XX/src/ + caption.txt (luego renderizar con Chrome)
+node build-singles.js # singles → singles/single-XX/ (luego renderizar)
+node build-stories.js # historias → stories/story-XX/ (luego renderizar)
+```
 
 Los HTML se regeneran en `src/`. Para renderizar a PNG con Chrome headless:
 
