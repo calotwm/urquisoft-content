@@ -1,0 +1,5 @@
+Una librería con inventario, POS y factura PDF: sin Excel
+
+Una librería también se ordena. Trabajamos con una librería para que su stock, ventas y proveedores estén en un solo lugar: Inventario y stock al día. Ventas POS y factura PDF. Proveedores y reportes. Sus datos migrados desde Excel, sin perder nada. Cada rubro tiene su forma de trabajar: la respetamos y la ordenamos. La tuya puede ser la próxima. Escribinos.
+
+#libreria #inventario #facturacion #casosdeexito #pymes

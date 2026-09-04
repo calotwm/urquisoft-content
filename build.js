@@ -16,6 +16,7 @@ const slides = [
     <div class="sub">Cuatro mitos. Cuatro realidades.</div>
     <div class="cta">Deslizá para ver la realidad <span>→</span></div>`
     },
+    extraCss: '.cover h1{font-size:92px}',
     pipOn: 1, swipe: 'Seguí'
   },
   {
