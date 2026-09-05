@@ -60,22 +60,22 @@ Los HTML se regeneran por builder. Para renderizar a PNG con Chrome headless (aj
 | 01 | Tu comercio puede vender online sin dejar el mostrador | Proyecto nuevo | dark |
 | 02 | Kiosco, carnicería, despensa: el mismo problema, la misma solución | Solución | dark |
 | 03 | Estos son los rubros que ya dejaron el Excel | Caso real | dark |
-| 04 | Lo que NO hacemos: venderte tecnología por venderla | Marca | dark |
+| 04 | Lo que NO hacemos: venderte tecnología por venderla | Marca | magenta |
 | 05 | ¿Cuántas horas por semana perdés anotando a mano? | Interacción | **light** |
 | 06 | Cobrá con QR y dejá de perseguir la plata | Proyecto nuevo | **light** |
-| 07 | ¿Sabías que tu sistema puede cobrar por vos? | Feature | dark |
+| 07 | ¿Sabías que tu sistema puede cobrar por vos? | Feature | magenta |
 | 08 | Una librería con inventario, POS y factura PDF: sin Excel | Caso real | dark |
-| 09 | Del cuaderno a la pantalla en 4 pasos | Proceso | dark |
+| 09 | Del cuaderno a la pantalla en 4 pasos | Proceso | **light** |
 | 10 | POV: el dueño cerrando la caja un viernes | Humor | **light** |
-| 11 | 4 señales de que tu negocio necesita un sistema | Checklist | dark |
+| 11 | 4 señales de que tu negocio necesita un sistema | Checklist | magenta |
 | 12 | Talleres y técnicos: adiós a los papelitos de presupuesto | Solución por rubro | dark |
 | 13 | Un estudio contable cargaba extractos a mano | Caso estrella | dark |
-| 14 | Precios claros, sin letra chica | Precios | dark |
-| 15 | Tu WhatsApp puede vender mientras dormís | Proyecto nuevo | dark |
+| 14 | Precios claros, sin letra chica | Precios | **light** |
+| 15 | Tu WhatsApp puede vender mientras dormís | Proyecto nuevo | magenta |
 | 16 | La libreta de deudores: el agujero negro de tu negocio | El problema | dark |
 | 17 | Peluquerías y barberías: turnos que se avisan solos | Feature por rubro | **light** |
 | 18 | Del pedido al reparto, sin papel: huevos a domicilio | Caso real | dark |
-| 19 | Vos sos el dueño de tus datos | Valores | dark |
+| 19 | Vos sos el dueño de tus datos | Valores | magenta |
 | 20 | ¿Qué es lo que más te cuesta de tu negocio? | Encuesta | **light** |
 
 Reglas aplicadas: sin AFIP, voseo con tilde, « », CTA único "Escribinos y...", 5 hashtags sin #urquisoft, emojis a agregar al publicar.

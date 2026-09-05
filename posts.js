@@ -50,7 +50,7 @@ module.exports = [
     hashtags: ['#casosdeexito', '#pymes', '#libreria', '#lubricentro', '#gestion']
   },
   {
-    id: 4, theme: 'dark', tag: 'MARCA · 2026',
+    id: 4, theme: 'magenta', tag: 'MARCA · 2026',
     title: 'Lo que NO hacemos: venderte tecnología por venderla',
     slides: [
       { type: 'cover', kicker: 'Nuestros valores', lines: ['LO QUE', '<span class="mag">NO</span> HACEMOS'], sub: 'Honestidad como estrategia.', cta: 'Deslizá para conocerlos' },
@@ -90,7 +90,7 @@ module.exports = [
     hashtags: ['#pagosdigitales', '#qr', '#pymes', '#cobranzas', '#gestion']
   },
   {
-    id: 7, theme: 'dark', tag: 'FEATURE · 2026',
+    id: 7, theme: 'magenta', tag: 'FEATURE · 2026',
     title: '¿Sabías que tu sistema puede cobrar por vos?',
     slides: [
       { type: 'cover', kicker: 'Feature · Deudores y cobranza', lines: ['¿SABÍAS QUE TU', 'SISTEMA PUEDE', '<span class="teal">COBRAR</span> POR VOS?'], sub: 'Con recordatorios automáticos.', cta: 'Deslizá para ver el módulo' },
@@ -125,7 +125,7 @@ module.exports = [
     hashtags: ['#libreria', '#inventario', '#facturacion', '#casosdeexito', '#pymes']
   },
   {
-    id: 9, theme: 'dark', tag: 'PROCESO · 2026',
+    id: 9, theme: 'light', tag: 'PROCESO · 2026',
     title: 'Del cuaderno a la pantalla en 4 pasos',
     slides: [
       { type: 'cover', coverStyle: 'left', ghost: '4', kicker: 'Nuestro proceso', lines: ['DEL CUADERNO', 'A LA PANTALLA', 'EN <span class="teal">4 PASOS</span>'], sub: 'Cambiar da miedo. Por eso es simple.', cta: 'Deslizá para ver los pasos' },
@@ -152,7 +152,7 @@ module.exports = [
     hashtags: ['#humor', '#pymes', '#cierrecaja', '#gestion', '#comercios']
   },
   {
-    id: 11, theme: 'dark', tag: 'CHECKLIST · 2026',
+    id: 11, theme: 'magenta', tag: 'CHECKLIST · 2026',
     title: '4 señales de que tu negocio necesita un sistema (y no lo sabías)',
     slides: [
       { type: 'cover', kicker: 'Checklist de autodiagnóstico', lines: ['4 SEÑALES DE QUE', 'TU NEGOCIO NECESITA', 'UN <span class="teal">SISTEMA</span>'], sub: 'Si te pasan 2 o más, hablemos.', cta: 'Deslizá y contá tu puntaje' },
@@ -199,7 +199,7 @@ module.exports = [
     hashtags: ['#estudioscontables', '#xubio', '#contabilidad', '#automatizacion', '#pymes']
   },
   {
-    id: 14, theme: 'dark', tag: 'PRECIOS · 2026',
+    id: 14, theme: 'light', tag: 'PRECIOS · 2026',
     title: 'Precios claros, sin letra chica',
     slides: [
       { type: 'cover', coverStyle: 'left', ghost: '$', kicker: 'Transparencia', lines: ['PRECIOS CLAROS,', 'SIN <span class="strike">LETRA CHICA</span>'], sub: 'Sin sorpresas ni costos ocultos.', cta: 'Deslizá para ver el desglose' },
@@ -217,7 +217,7 @@ module.exports = [
     hashtags: ['#preciosclaros', '#pymes', '#planes', '#gestion', '#comercios']
   },
   {
-    id: 15, theme: 'dark', tag: 'PROYECTO NUEVO · 2026',
+    id: 15, theme: 'magenta', tag: 'PROYECTO NUEVO · 2026',
     title: 'Tu WhatsApp puede vender mientras dormís',
     slides: [
       { type: 'cover', kicker: 'Proyecto nuevo · WhatsApp Commerce', lines: ['TU WHATSAPP PUEDE', 'VENDER MIENTRAS', '<span class="teal">DORMÍS</span>'], sub: 'Catálogo, pedidos y cobro en el chat.', cta: 'Deslizá para ver cómo' },
@@ -276,7 +276,7 @@ module.exports = [
     hashtags: ['#reparto', '#domicilio', '#pedidos', '#casosdeexito', '#pymes']
   },
   {
-    id: 19, theme: 'dark', tag: 'VALORES · 2026',
+    id: 19, theme: 'magenta', tag: 'VALORES · 2026',
     title: 'Vos sos el dueño de tus datos',
     slides: [
       { type: 'cover', coverStyle: 'quote', kicker: 'Nuestro principio', lines: ['VOS SOS EL', 'DUEÑO DE', 'TUS <span class="teal">DATOS</span>'], sub: 'Una regla que no negociamos.', cta: 'Deslizá para conocerla' },
