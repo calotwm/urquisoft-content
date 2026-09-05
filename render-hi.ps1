@@ -22,5 +22,12 @@ foreach ($n in 1..20) { $pn = "{0:D2}" -f $n; Render-Hi "$root\posts\post-$pn\sr
 Write-Output "singles..."
 foreach ($n in 1..26) { $pn = "{0:D2}" -f $n; Render-Hi "$root\singles\single-$pn" "$outRoot\singles\single-$pn" "1080,1350" }
 Write-Output "historias (carpeta plana)..."
-foreach ($n in 1..15) { $pn = "{0:D2}" -f $n; Render-Hi "$root\stories\story-$pn" "$outRoot\stories-all" "1080,1920" }
+New-Item -ItemType Directory -Force -Path "$outRoot\stories-all" | Out-Null
+foreach ($n in 1..15) {
+  $pn = "{0:D2}" -f $n
+  $f = "$root\stories\story-$pn\story.html"
+  $out = "$outRoot\stories-all\story-$pn.png"
+  $url = "file:///" + ($f -replace '\\','/')
+  & $chrome --headless=new --disable-gpu --hide-scrollbars --force-device-scale-factor=2 --virtual-time-budget=8000 --window-size=1080,1920 --screenshot="$out" $url 2>$null | Out-Null
+}
 Write-Output "EXPORT COMPLETO -> $outRoot"
