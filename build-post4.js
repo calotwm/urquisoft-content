@@ -8,7 +8,7 @@ const { writeSlides } = require('./brand');
 const SHOT = '../assets/bibliotheca.png';
 
 const EXTRA = `
-.cover h1{font-size:80px}
+.cover h1{font-size:84px}
 .pill-problem{border:1px solid rgba(204,0,126,.5);color:#E052A9;background:rgba(204,0,126,.10)}
 .chips{display:flex;gap:22px;flex-wrap:wrap;position:relative;z-index:1}
 .chip{flex:1;min-width:200px;display:flex;flex-direction:column;gap:16px;align-items:center;justify-content:center;padding:36px 18px;border-radius:24px;border:1px solid rgba(255,255,255,.16);background:linear-gradient(135deg,rgba(255,255,255,.10) 0%,rgba(255,255,255,.03) 45%,rgba(255,255,255,.01) 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,.18),0 8px 32px rgba(0,0,0,.35)}

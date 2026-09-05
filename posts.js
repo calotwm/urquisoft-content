@@ -107,7 +107,7 @@ module.exports = [
     hashtags: ['#cobranzas', '#deudores', '#whatsapp', '#pymes', '#gestion']
   },
   {
-    id: 8, theme: 'dark', tag: 'CASO REAL · 2026', extraCss: '.cover h1{font-size:62px}',
+    id: 8, theme: 'dark', tag: 'CASO REAL · 2026', extraCss: '.cover h1{font-size:68px}',
     title: 'Una librería con inventario, POS y factura PDF: sin Excel',
     slides: [
       { type: 'cover', kicker: 'Caso real · Librería', lines: ['UNA LIBRERÍA CON INVENTARIO,', 'POS Y FACTURA PDF:', '<span class="strike">SIN EXCEL</span>'], sub: 'El caso bibliotheca.', cta: 'Deslizá para ver la historia' },
@@ -166,7 +166,7 @@ module.exports = [
     hashtags: ['#pymes', '#comercios', '#stock', '#cobranzas', '#gestion']
   },
   {
-    id: 12, theme: 'dark', tag: 'SOLUCIÓN POR RUBRO · 2026', extraCss: '.cover h1{font-size:68px}',
+    id: 12, theme: 'dark', tag: 'SOLUCIÓN POR RUBRO · 2026', extraCss: '.cover h1{font-size:74px}',
     title: 'Talleres y técnicos: adiós a los papelitos de presupuesto',
     slides: [
       { type: 'cover', kicker: 'Solución por rubro', lines: ['TALLERES Y TÉCNICOS:', 'ADIÓS A LOS', 'PAPELITOS DE <span class="mag">PRESUPUESTO</span>'], sub: 'Órdenes de trabajo y servicio técnico.', cta: 'Deslizá para ver la solución' },
@@ -180,7 +180,7 @@ module.exports = [
     hashtags: ['#serviciotecnico', '#talleres', '#presupuestos', '#gestion', '#pymes']
   },
   {
-    id: 13, theme: 'dark', tag: 'CASO ESTRELLA · 2026', extraCss: '.cover h1{font-size:52px}',
+    id: 13, theme: 'dark', tag: 'CASO ESTRELLA · 2026', extraCss: '.cover h1{font-size:56px}',
     title: 'Un estudio contable cargaba extractos a mano, movimiento por movimiento',
     slides: [
       { type: 'cover', kicker: 'Caso estrella · Estudio contable', lines: ['UN ESTUDIO CONTABLE', 'CARGABA EXTRACTOS', 'A MANO, MOVIMIENTO POR <span class="mag">MOVIMIENTO</span>'], sub: 'Extractos a asientos, automático.', cta: 'Deslizá para ver el caso' },
@@ -231,7 +231,7 @@ module.exports = [
     hashtags: ['#whatsapp', '#ventas', '#comercios', '#automatizacion', '#pymes']
   },
   {
-    id: 16, theme: 'dark', tag: 'EL PROBLEMA · 2026', extraCss: '.cover h1{font-size:62px}',
+    id: 16, theme: 'dark', tag: 'EL PROBLEMA · 2026', extraCss: '.cover h1{font-size:68px}',
     title: 'La libreta de deudores: el agujero negro de tu negocio',
     slides: [
       { type: 'cover', kicker: 'El problema con números', lines: ['LA LIBRETA DE DEUDORES:', 'EL AGUJERO', '<span class="mag">NEGRO</span> DE TU NEGOCIO'], sub: 'La plata que no se cobra.', cta: 'Deslizá para ver el agujero' },
@@ -245,7 +245,7 @@ module.exports = [
     hashtags: ['#deudores', '#cobranzas', '#pymes', '#whatsapp', '#gestion']
   },
   {
-    id: 17, theme: 'light', tag: 'FEATURE POR RUBRO · 2026', extraCss: '.cover h1{font-size:64px}',
+    id: 17, theme: 'light', tag: 'FEATURE POR RUBRO · 2026', extraCss: '.cover h1{font-size:70px}',
     title: 'Peluquerías y barberías: turnos que se avisan solos',
     slides: [
       { type: 'cover', kicker: 'Agenda de turnos', lines: ['PELUQUERÍAS Y BARBERÍAS:', 'TURNOS QUE SE', '<span class="teal">AVISAN SOLOS</span>'], sub: 'Menos huecos, más horas facturadas.', cta: 'Deslizá para ver la agenda' },
