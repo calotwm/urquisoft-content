@@ -8,7 +8,7 @@ const STORIES = require('./stories');
 const STORY_EXTRA = `
 .cover h1{font-size:120px;margin-top:40px}
 .cover .sub{margin-top:48px;font-size:36px;max-width:860px}
-.cover .cta{margin-top:88px}
+.cover .cta{margin-top:88px;font-size:32px;padding:32px 56px}
 `;
 
 for (const st of STORIES) {

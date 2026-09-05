@@ -106,7 +106,7 @@ h2{font-weight:800;letter-spacing:-0.02em;font-size:80px;line-height:1.12;positi
 .myth-block h2::after{content:"";position:absolute;left:-10px;right:-10px;top:56%;height:10px;background:linear-gradient(90deg,#CC007E,#8A0055);border-radius:6px;transform:rotate(-2deg);box-shadow:0 0 22px rgba(204,0,126,0.45)}
 .arrow{color:var(--mag);font-size:56px;line-height:1;margin-left:30px;text-shadow:0 0 24px rgba(204,0,126,0.6)}
 .reality-block p{font-size:46px;font-weight:600;line-height:1.28;max-width:930px;padding:34px 40px;border-radius:24px;border:1px solid var(--w16);background:linear-gradient(135deg,var(--g1) 0%,var(--g2) 45%,var(--g3) 100%);box-shadow:inset 0 1px 0 var(--gh),0 8px 32px var(--shadow)}
-.cta{display:inline-flex;align-items:center;gap:14px;padding:26px 42px;border-radius:999px;border:1px solid var(--cta-border);background:linear-gradient(135deg,var(--cta1) 0%,var(--cta2) 100%);font-weight:700;font-size:26px;letter-spacing:.04em;color:#fff;box-shadow:0 10px 40px rgba(204,0,126,0.35),inset 0 1px 0 rgba(255,255,255,0.25)}
+.cta{display:inline-flex;align-items:center;gap:14px;padding:30px 50px;border-radius:999px;border:1px solid var(--cta-border);background:linear-gradient(135deg,var(--cta1) 0%,var(--cta2) 100%);font-weight:700;font-size:28px;letter-spacing:.04em;color:#fff;box-shadow:0 10px 40px rgba(204,0,126,0.35),inset 0 1px 0 rgba(255,255,255,0.25)}
 .cta span{font-size:30px;line-height:1}
 .kicker{display:inline-flex;align-items:center;padding:16px 30px;border-radius:999px;border:1px solid var(--w28);background:var(--g2);font-size:22px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--w75)}
 h1{font-weight:800;letter-spacing:-0.03em;font-size:92px;line-height:1.08;margin-top:48px;color:var(--w100)}

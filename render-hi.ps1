@@ -21,6 +21,6 @@ Write-Output "carruseles plan v5..."
 foreach ($n in 1..20) { $pn = "{0:D2}" -f $n; Render-Hi "$root\posts\post-$pn\src" "$outRoot\posts\post-$pn" "1080,1350" }
 Write-Output "singles..."
 foreach ($n in 1..26) { $pn = "{0:D2}" -f $n; Render-Hi "$root\singles\single-$pn" "$outRoot\singles\single-$pn" "1080,1350" }
-Write-Output "historias..."
-foreach ($n in 1..15) { $pn = "{0:D2}" -f $n; Render-Hi "$root\stories\story-$pn" "$outRoot\stories\story-$pn" "1080,1920" }
+Write-Output "historias (carpeta plana)..."
+foreach ($n in 1..15) { $pn = "{0:D2}" -f $n; Render-Hi "$root\stories\story-$pn" "$outRoot\stories-all" "1080,1920" }
 Write-Output "EXPORT COMPLETO -> $outRoot"
