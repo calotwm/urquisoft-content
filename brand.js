@@ -41,7 +41,7 @@ body.light{
   --edge:rgba(204,0,126,0.4);
   --inset1:rgba(204,0,126,0.08); --inset2:rgba(204,0,126,0.03);
   --shadow:rgba(36,26,31,0.18);
-  --cta1:rgba(204,0,126,0.35); --cta2:rgba(204,0,126,0.14); --cta-border:rgba(204,0,126,0.55);
+  --cta1:#E6008C; --cta2:#9A005F; --cta-border:rgba(204,0,126,0.6);
   --shot-border:rgba(204,0,126,0.45);
 }
 body.magenta{
