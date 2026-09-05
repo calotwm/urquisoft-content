@@ -6,10 +6,10 @@ const { html, ensureDir, root } = require('./brand');
 const STORIES = require('./stories');
 
 const STORY_EXTRA = `
-.cover h1{font-size:76px;margin-top:60px}
-.cover .sub{margin-top:44px;font-size:32px;max-width:820px}
-.cover .cta{margin-top:80px}
-.cover .kicker{margin-bottom:6px}
+.cover h1{font-size:100px;margin-top:64px}
+.cover .sub{margin-top:48px;font-size:36px;max-width:860px}
+.cover .cta{margin-top:88px}
+.cover .kicker{margin-bottom:8px;font-size:26px}
 `;
 
 for (const st of STORIES) {
