@@ -6,10 +6,9 @@ const { html, ensureDir, root } = require('./brand');
 const STORIES = require('./stories');
 
 const STORY_EXTRA = `
-.cover h1{font-size:100px;margin-top:64px}
+.cover h1{font-size:120px;margin-top:40px}
 .cover .sub{margin-top:48px;font-size:36px;max-width:860px}
 .cover .cta{margin-top:88px}
-.cover .kicker{margin-bottom:8px;font-size:26px}
 `;
 
 for (const st of STORIES) {
@@ -17,8 +16,7 @@ for (const st of STORIES) {
   const lines = st.lines.map((ln, i) => `<span>${ln}</span>${i < st.lines.length - 1 ? '<br>' : ''}`).join('');
   const main = {
     cls: 'cover',
-    body: `    <div class="kicker">${st.kick}</div>
-    <h1>
+    body: `    <h1>
       ${lines}
     </h1>
     <div class="sub">${st.sub}</div>
