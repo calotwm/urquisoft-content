@@ -1,58 +1,30 @@
 // singles.js — 26 posteos de imagen única (no carrusel).
-// 20 ideas nuevas + 6 conversiones de carruseles del plan. Temas: dark / light / magenta (#CC007E + letra negra).
+// Formato: título grande + mensaje + CTA "Escribinos". Temas: dark / light / magenta (#CC007E + letra negra).
 module.exports = [
-  { id: 1, theme: 'dark', tag: 'REFLEXIÓN · 2026', title: 'El Excel no cierra la caja', slide: { type: 'quote', lines: ['El Excel no cierra la caja.', '<mag>Vos sí.</mag>'] } },
-  { id: 2, theme: 'light', tag: 'PREGUNTA · 2026', title: '¿Sabés cuánto vendiste ayer?', slide: { type: 'quote', lines: ['¿Sabés cuánto vendiste ayer?', 'Respondé sin mirar.'] } },
-  { id: 3, theme: 'magenta', tag: 'DATOS · 2026', title: 'Un error de tipeo cuesta más', slide: { type: 'quote', lines: ['Un error de tipeo', 'cuesta más que un sistema.'] } },
-  { id: 4, theme: 'dark', tag: 'REFLEXIÓN · 2026', title: 'Los papeles no avisan', slide: { type: 'quote', lines: ['Los papeles no avisan.', '<teal>Tu sistema sí.</teal>'] } },
-  { id: 5, theme: 'light', tag: 'LISTA · 2026', title: '3 cosas que tu libreta no te dice', slide: { type: 'rows', items: [
-    { k: 'n', v: '1', t: 'Lo que te deben', small: 'Ni desde cuándo.' },
-    { k: 'n', v: '2', t: 'Lo que falta en stock' },
-    { k: 'n', v: '3', t: 'Lo que perdés cada día', small: 'Sin darte cuenta.' }
-  ] } },
-  { id: 6, theme: 'magenta', tag: 'REFLEXIÓN · 2026', title: 'La caja cierra sola', slide: { type: 'quote', lines: ['La caja cierra sola', 'cuando el sistema', '<teal>trabaja por vos</teal>.'] } },
-  { id: 7, theme: 'dark', tag: 'REFLEXIÓN · 2026', title: 'Stock que no ves', slide: { type: 'quote', lines: ['Stock que no ves,', 'plata que no cobrás.'] } },
-  { id: 8, theme: 'magenta', tag: 'DATOS · 2026', title: 'Cerrar la caja en 5 minutos', slide: { type: 'metrics', ctx: 'Cerrar la caja con sistema', num: '5', suffix: ' min', cap: '¿Y a vos cuántos te lleva?' } },
-  { id: 9, theme: 'light', tag: 'REFLEXIÓN · 2026', title: 'Tu cliente no espera', slide: { type: 'quote', lines: ['Tu cliente no espera.', 'Tu sistema tampoco.'] } },
-  { id: 10, theme: 'dark', tag: 'REFLEXIÓN · 2026', title: 'El cuaderno es gratis', slide: { type: 'quote', lines: ['El cuaderno es gratis.', '<mag>Hasta que perdés la primera venta.</mag>'] } },
-  { id: 11, theme: 'magenta', tag: 'DEUDORES · 2026', title: 'Deudores, la plata que más trabajo da', slide: { type: 'quote', lines: ['Deudores: la plata que', 'más trabajo te da cobrar.'] } },
-  { id: 12, theme: 'light', tag: 'REFLEXIÓN · 2026', title: 'Un sistema no es un gasto', slide: { type: 'quote', lines: ['Un sistema no es un gasto.', 'Es un empleado que', '<teal>nunca se enferma</teal>.'] } },
-  { id: 13, theme: 'dark', tag: 'WHATSAPP · 2026', title: 'Mientras dormís, tu WhatsApp vende', slide: { type: 'quote', lines: ['Mientras dormís,', 'tu WhatsApp puede vender.'] } },
-  { id: 14, theme: 'magenta', tag: 'PROBLEMAS · 2026', title: 'El ticket, el stock y la caja', slide: { type: 'quote', lines: ['El ticket, el stock y la caja:', 'tres lugares,', '<mag>un solo problema</mag>.'] } },
-  { id: 15, theme: 'light', tag: 'VALORES · 2026', title: 'Orden no es lujo', slide: { type: 'quote', lines: ['Orden no es lujo.', 'Es lo que hace crecer.'] } },
-  { id: 16, theme: 'dark', tag: 'REFLEXIÓN · 2026', title: 'Tu memoria no escala', slide: { type: 'quote', lines: ['¿Tu negocio depende', 'de tu memoria?', '<mag>Eso no escala.</mag>'] } },
-  { id: 17, theme: 'magenta', tag: 'PROCESO · 2026', title: 'La primera reunión no cuesta nada', slide: { type: 'quote', lines: ['La primera reunión no cuesta nada.', 'El desorden cuesta', '<mag>todos los días</mag>.'] } },
-  { id: 18, theme: 'light', tag: 'PROCESO · 2026', title: 'Del cuaderno a la pantalla', slide: { type: 'search', query: 'del cuaderno a la pantalla', results: [
-    { ic: '1', t: 'Reunión inicial sin cargo' },
-    { ic: '2', t: 'Propuesta a tu medida' },
-    { ic: '3', t: 'Instalación y capacitación' }
-  ] } },
-  { id: 19, theme: 'dark', tag: 'VALORES · 2026', title: 'Vos sos el dueño de tus datos', slide: { type: 'quote', lines: ['Vos sos el dueño', 'de tus <teal>datos</teal>.', 'Siempre.'] } },
-  { id: 20, theme: 'magenta', tag: 'MARCA · 2026', title: 'Escribinos y empezá', slide: { type: 'close', pill: '¿Listo para ordenar tu negocio?', lines: ['Tu negocio, ordenado.', { grad: 'Tu información, al alcance de la mano.' }], cta: 'Escribinos y empezá hoy', sub: 'urquisoft.com' } },
-  // Conversiones de carruseles del plan v5
-  { id: 21, theme: 'light', tag: 'PROYECTO NUEVO · 2026', title: 'Vender online sin dejar el mostrador', slide: { type: 'quote', lines: ['Tu comercio puede vender online', 'sin dejar el <mag>mostrador</mag>.'] } },
-  { id: 22, theme: 'dark', tag: 'MARCA · 2026', title: 'Lo que NO hacemos', slide: { type: 'quote', lines: ['Lo que <mag>NO</mag> hacemos:', 'venderte tecnología por venderla.'] } },
-  { id: 23, theme: 'magenta', tag: 'FEATURE · 2026', title: 'Tu sistema puede cobrar por vos', slide: { type: 'search', query: '¿tu sistema puede cobrar por vos?', results: [
-    { ic: '✓', t: 'Deuda por cliente', small: 'Siempre al día' },
-    { ic: '✓', t: 'Recordatorio automático', small: 'El sistema avisa' },
-    { ic: '✓', t: 'Menos perseguir, más cobrar' }
-  ] } },
-  { id: 24, theme: 'dark', tag: 'PROCESO · 2026', title: 'Del cuaderno a la pantalla en 4 pasos', slide: { type: 'rows', items: [
-    { k: 'n', v: '1', t: 'Reunión inicial sin cargo' },
-    { k: 'n', v: '2', t: 'Propuesta a tu medida' },
-    { k: 'n', v: '3', t: 'Instalación y capacitación' },
-    { k: 'n', v: '4', t: 'Acompañamiento mensual' }
-  ] } },
-  { id: 25, theme: 'light', tag: 'CHECKLIST · 2026', title: '4 señales de que necesitás un sistema', slide: { type: 'rows', items: [
-    { k: 'n', v: '1', t: 'Sabés el stock de memoria' },
-    { k: 'n', v: '2', t: 'Las deudas están en la libreta' },
-    { k: 'n', v: '3', t: 'Mandás los mismos mensajes' },
-    { k: 'n', v: '4', t: 'Los números solo los sabe el dueño' }
-  ] } },
-  { id: 26, theme: 'magenta', tag: 'ENCUESTA · 2026', title: '¿Qué te cuesta más?', slide: { type: 'options', items: [
-    { v: 'A', t: 'El stock: nunca sé cuánto me queda.' },
-    { v: 'B', t: 'La cobranza: me deben y no me acuerdo.' },
-    { v: 'C', t: 'Los turnos: se me superponen.' },
-    { v: 'D', t: 'La facturación: los papeles me comen.' }
-  ] } }
+  { id: 1, theme: 'dark', title: 'El Excel no cierra la caja', msg: 'Vos sí. Con un sistema, el cierre del día es cosa de minutos.', cta: 'Escribinos y te mostramos cómo' },
+  { id: 2, theme: 'light', title: '¿Sabés cuánto vendiste ayer?', msg: 'Respondé sin mirar. Si dudaste, es hora de ordenar los números.', cta: 'Escribinos y lo ordenamos' },
+  { id: 3, theme: 'magenta', title: 'Un error de tipeo cuesta más que un sistema', msg: 'La falta, la deuda olvidada y el stock que no cierra se pagan solos.', cta: 'Escribinos y empezá hoy' },
+  { id: 4, theme: 'dark', title: 'Los papeles no avisan', msg: 'Tu sistema sí: stock, deudas y reportes, siempre al día.', cta: 'Escribinos' },
+  { id: 5, theme: 'light', title: '3 cosas que tu libreta no te dice', msg: 'Lo que te deben, lo que falta en stock y lo que perdés cada día.', cta: 'Escribinos y te mostramos' },
+  { id: 6, theme: 'magenta', title: 'La caja cierra sola', msg: 'Cuando el sistema trabaja por vos, el cierre son 5 minutos.', cta: 'Escribinos' },
+  { id: 7, theme: 'dark', title: 'Stock que no ves, plata que no cobrás', msg: 'El inventario al día es la diferencia entre adivinar y saber.', cta: 'Escribinos y lo ponemos en orden' },
+  { id: 8, theme: 'magenta', title: 'Cerrar la caja en 5 minutos', msg: 'Con sistema. Sin papelitos, sin sumar de memoria.', cta: 'Escribinos y probalo' },
+  { id: 9, theme: 'light', title: 'Tu cliente no espera', msg: 'Tu sistema tampoco: respuestas al instante, ventas que no se pierden.', cta: 'Escribinos' },
+  { id: 10, theme: 'dark', title: 'El cuaderno es gratis', msg: 'Hasta que perdés la primera venta. O la primera deuda.', cta: 'Escribinos y empezá' },
+  { id: 11, theme: 'magenta', title: 'Deudores: la plata que más trabajo te da cobrar', msg: 'Con recordatorios automáticos, cobrás sin perseguir a nadie.', cta: 'Escribinos' },
+  { id: 12, theme: 'light', title: 'Un sistema no es un gasto', msg: 'Es un empleado que nunca se enferma, no pide vacaciones y nunca se olvida.', cta: 'Escribinos y te contamos' },
+  { id: 13, theme: 'dark', title: 'Mientras dormís, tu WhatsApp puede vender', msg: 'Catálogo, pedidos y cobro por mensaje, conectados a tu sistema.', cta: 'Escribinos' },
+  { id: 14, theme: 'magenta', title: 'El ticket, el stock y la caja', msg: 'Tres lugares, un solo problema. Un solo sistema, una sola solución.', cta: 'Escribinos y lo resolvemos' },
+  { id: 15, theme: 'light', title: 'Orden no es lujo', msg: 'Es lo que hace crecer: datos claros, decisiones rápidas.', cta: 'Escribinos' },
+  { id: 16, theme: 'dark', title: 'Tu memoria no escala', msg: 'Si los números solo viven en tu cabeza, el negocio crece hasta ahí.', cta: 'Escribinos y lo pasamos a un sistema' },
+  { id: 17, theme: 'magenta', title: 'La primera reunión no cuesta nada', msg: 'El desorden cuesta todos los días. Empezá por una charla sin cargo.', cta: 'Escribinos y coordinamos' },
+  { id: 18, theme: 'light', title: 'Del cuaderno a la pantalla', msg: 'En 4 pasos: reunión, propuesta, instalación y acompañamiento.', cta: 'Escribinos' },
+  { id: 19, theme: 'dark', title: 'Vos sos el dueño de tus datos', msg: 'Siempre. Backups incluidos y exportación libre cuando quieras.', cta: 'Escribinos' },
+  { id: 20, theme: 'magenta', title: 'Tu negocio, ordenado', msg: 'Tu información, al alcance de la mano.', cta: 'Escribinos y empezá hoy' },
+  { id: 21, theme: 'light', title: 'Vender online sin dejar el mostrador', msg: 'Tu tienda propia, integrada con tu stock y tus precios.', cta: 'Escribinos y te mostramos' },
+  { id: 22, theme: 'dark', title: 'Lo que NO hacemos', msg: 'No te vendemos funciones que no vas a usar, ni letra chica, ni desaparecemos.', cta: 'Escribinos' },
+  { id: 23, theme: 'magenta', title: 'Tu sistema puede cobrar por vos', msg: 'Deuda por cliente, recordatorios automáticos y menos perseguir.', cta: 'Escribinos' },
+  { id: 24, theme: 'dark', title: 'Del cuaderno a la pantalla en 4 pasos', msg: 'Reunión, propuesta, instalación y acompañamiento mensual.', cta: 'Escribinos y coordinamos la primera' },
+  { id: 25, theme: 'light', title: '4 señales de que necesitás un sistema', msg: 'Si te pasan 2 o más, tu negocio te está pidiendo orden.', cta: 'Escribinos y agendamos' },
+  { id: 26, theme: 'magenta', title: '¿Qué te cuesta más?', msg: 'A) Stock · B) Cobranza · C) Turnos · D) Facturación. Respondé con la letra.', cta: 'Escribinos y lo resolvemos' }
 ];

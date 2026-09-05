@@ -90,7 +90,7 @@ Reglas aplicadas: sin AFIP, voseo con tilde, « », CTA único "Escribinos y..."
 
 ## Posteos de imagen única (no carrusel)
 
-`singles/single-01..26` — 20 ideas nuevas + 6 conversiones de carruseles del plan. Generados por `build-singles.js` (datos en `singles.js`). 9 dark / 8 light / 9 magenta.
+`singles/single-01..26` — 20 ideas nuevas + 6 conversiones de carruseles del plan. Formato único: título grande + mensaje + CTA "Escribinos". Generados por `build-singles.js` (datos en `singles.js`). 9 dark / 8 light / 9 magenta.
 
 ## Historias 1080×1920
 
