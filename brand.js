@@ -263,7 +263,6 @@ ${FONT}
   <div class="edge"></div>
   <header>
     <div class="brand">${LOGO}</div>
-    <div class="tag">${tag}</div>
   </header>
   <main class="${mainHtml.cls}">
 ${mainHtml.body}
