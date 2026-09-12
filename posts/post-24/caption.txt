@@ -1,0 +1,5 @@
+Así testeamos cada solución antes de entregarla
+
+Así testeamos cada solución antes de entregarla. No probamos en un laboratorio: Probamos con casos reales, con datos de comercios. Cada pantalla se revisa a fondo. Mejoramos con tu feedback: lo que usás todos los días se pule. Nuestra regla: «Si no lo usaríamos en nuestro comercio, no lo entregamos». Escribinos y probalo vos.
+
+#equipo #detrasdeescena #pymes #calidad #gestion
