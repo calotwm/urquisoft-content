@@ -1,0 +1,5 @@
+Código de barras y WMS: el stock que se ordena solo
+
+Código de barras y WMS: ¿seguís contando el stock a mano? Contar estante por estante te deja dos problemas: errores y horas perdidas. Con código de barras y un WMS: Cada producto tiene su código y se escanea al entrar y al salir. Las ubicaciones del depósito quedan ordenadas. El stock se actualiza en tiempo real, sin contar a mano. Escribinos y te lo mostramos aplicado a tu negocio.
+
+#codigodebarras #wms #inventario #pymes #gestion
