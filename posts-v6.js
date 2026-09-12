@@ -7,9 +7,9 @@
 module.exports = [
   {
     id: 21, theme: 'magenta', tag: 'HERRAMIENTA · 2026', pdf: true, dmKeyword: 'STOCK',
-    title: 'Control de stock: sabé qué te queda sin contar a mano',
+    title: 'Control de stock: sabés qué te queda sin contar a mano',
     slides: [
-      { type: 'cover', kicker: 'Herramienta gratuita', lines: ['CONTROL DE STOCK:', 'SABÉ QUÉ', 'TE <span class="mag">QUEDA</span>'], sub: 'La planilla que ordena tu inventario.', cta: 'Deslizá para verla' },
+      { type: 'cover', kicker: 'Herramienta gratuita', lines: ['CONTROL DE STOCK:', 'SABÉS QUÉ', 'TE <span class="mag">QUEDA</span>'], sub: 'La planilla que ordena tu inventario.', cta: 'Deslizá para verla' },
       { type: 'problem', pill: 'El problema', statement: 'No sabés cuánto stock te queda<br>ni cuándo reponer.', lead: 'Comprás de más o te quedás sin vender.' },
       { type: 'solution', pill: 'La solución', chips: ['Stock al día', 'Alertas de mínimo', 'Movimientos'], statement: 'Una planilla simple para controlar tu <span class="teal">inventario</span>.' },
       { type: 'rows', items: [
