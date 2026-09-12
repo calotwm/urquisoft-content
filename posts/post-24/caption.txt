@@ -1,5 +1,5 @@
-Así testeamos cada solución antes de entregarla
+Cómo probamos cada migración antes de tocar tus datos
 
-Así testeamos cada solución antes de entregarla. No probamos en un laboratorio: Probamos con casos reales, con datos de comercios. Cada pantalla se revisa a fondo. Mejoramos con tu feedback: lo que usás todos los días se pule. Nuestra regla: «Si no lo usaríamos en nuestro comercio, no lo entregamos». Escribinos y probalo vos.
+Migrar tu sistema da miedo, por eso lo probamos todo antes. Nuestro proceso, de Camilo y Adrián: escuchamos tu negocio primero. Diseñamos la migración a tu medida, sin tocar lo que ya funciona. Probamos 340 veces cada paso antes de tocar tus datos. Y te acompañamos después, con instalación, capacitación y soporte. Probamos cada migración como si fuera nuestro negocio. Escribinos y te contamos cómo lo hacemos.
 
-#equipo #detrasdeescena #pymes #calidad #gestion
+#equipo #detrasdeescena #migracion #pymes #gestion

@@ -1,5 +1,5 @@
-Control de caja: sabés qué te entra y qué te sale
+Planilla de stock con alertas: sabés qué te queda
 
-¿Sabés cuánto te entra y cuánto te sale por día? Cierres que no cierran y plata que no sabés dónde quedó son el precio de no tener un control simple. Te comparto una planilla de control de caja: Ingresos y egresos registrados. Cierre diario en un vistazo. Sin fórmulas complicadas, lista para usar. Guardá este post. Comentá CAJA y te lo mando.
+¿Te quedaste sin vender porque nadie avisó que faltaba stock? Comprar de más o quedarte corto es el precio de no tener alertas. Te comparto una planilla de stock: stock mínimo por producto, alertas automáticas cuando algo está por agotarse y movimientos registrados. Lista para usar desde el día uno. Guardá este post. Comentá STOCK y te la mando.
 
-#caja #controlcaja #pymes #gestion #comercios
+#stock #inventario #pymes #gestion #comercios

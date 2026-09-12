@@ -1,5 +1,5 @@
-Stock mínimo: ¿sabés cuándo reponer a tiempo?
+Stock mínimo: la regla anti-desabastecimiento
 
-Stock mínimo: ¿sabés cuándo reponer a tiempo? Reponer de memoria te deja dos problemas: quedarte sin lo que más sale o comprar de más. Con un sistema: Cada producto con su nivel mínimo. Alerta de reposición antes de quedarte sin stock. Comprás lo justo, vendés sin cortarte. Escribinos y te lo mostramos.
+¿Reponés cuando te acordás o cuando hace falta? El stock mínimo es la regla anti-desabastecimiento: el nivel al que tenés que reponer cada producto, calculado según cuánto vendés y cuánto tarda el proveedor. Con un sistema, cada producto tiene su mínimo y el sistema avisa solo antes de quedarte sin stock. Comprás lo justo, vendés sin cortarte. Escribinos y te lo mostramos.
 
 #stock #stockminimo #inventario #pymes #gestion
