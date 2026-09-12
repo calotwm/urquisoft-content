@@ -146,9 +146,9 @@ module.exports = [
     ],
     caption: 'Las pymes que digitalizan su gestión venden hasta 3x más que las que siguen con papeles. Digitalizar no es un lujo: Facturación al día, sin papeles. Stock en tiempo real, sin contar a mano. Reportes que se arman solos. Es la diferencia entre vender y quedarse. Escribinos y digitalizamos tu negocio.',
     hashtags: ['#digitalizacion', '#datos', '#pymes', '#comercios', '#gestion'],
-    liCaption: 'Las pymes que digitalizan su gestión venden hasta 3x más que las que siguen con papeles. La digitalización deja de ser una opción cuando la facturación manual, el stock a ojo y los reportes armados a mano empiezan a costar ventas. Un sistema integrado registra cada venta, mantiene el stock en tiempo real y genera los números del negocio en segundos. Es la diferencia entre vender y quedarse. Escribinos y digitalizamos tu negocio.',
+    liCaption: 'El costo de gestionar a mano no aparece en el balance: horas de carga, stock que se estima a ojo y reportes que llegan tarde. Las pymes que digitalizan su gestión venden hasta 3x más que las que siguen con papeles, y la diferencia empieza en cómo se registra cada operación. Un sistema integrado deja la facturación al día, el stock en tiempo real y los números del negocio en segundos. Es la diferencia entre vender y quedarse. Escribinos y digitalizamos tu negocio.',
     liSlides: [
-      { type: 'cover', kicker: 'Transformación digital', lines: ['LAS PYMES QUE SE', 'DIGITALIZAN VENDEN', 'HASTA <span class="mag">3X</span> MÁS'], sub: 'El dato que cambia el juego.', cta: 'Deslizá para verlo' },
+      { type: 'cover', kicker: 'Transformación digital', lines: ['LA GESTIÓN A MANO', 'TIENE UN COSTO', 'QUE NO <span class="mag">APARECE</span> EN BALANCE'], sub: 'Las pymes digitalizadas venden hasta 3x más.', cta: 'Deslizá para ver el dato' },
       { type: 'metrics', ctx: 'Las pymes que digitalizan su gestión', num: '3x', cap: 'venden más que las que siguen con papeles.' },
       { type: 'rows', items: [
         { k: 'l', v: '✓', t: 'Facturación al día', small: 'Cada venta queda registrada, sin papeles.' },
