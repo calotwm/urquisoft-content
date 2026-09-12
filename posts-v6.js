@@ -257,5 +257,89 @@ module.exports = [
       { type: 'solution', pill: 'La solución', chips: ['Pedidos registrados', 'Clientes al día', 'Sin copiar y pegar'], statement: 'Cada pedido que llega, registrado en tu <span class="teal">sistema</span>.' },
       { type: 'close', pill: 'Del chat al sistema', lines: ['El pedido que se registra,', { grad: 'no se pierde.' }], cta: 'Escribinos y te mostramos cómo', sub: 'urquisoft.com' }
     ]
+  },
+  {
+    id: 36, theme: 'magenta', tag: 'HERRAMIENTA · 2026', pdf: true, dmKeyword: 'HORAS',
+    title: 'Calculadora de horas: ¿cuánto te cuesta no facturar?',
+    slides: [
+      { type: 'cover', kicker: 'Herramienta · Calculadora', lines: ['¿CUÁNTO TE CUESTA', 'CADA HORA QUE', 'NO <span class="mag">FACTURÁS</span>?'], sub: 'Respondé con tu número.', cta: 'Deslizá y calculalo' },
+      { type: 'metrics', ctx: 'Horas no facturadas por semana', num: '5', cap: 'Sumalas al mes y mirá el costo.' },
+      { type: 'flow', steps: [
+        { t: 'Anotá tus horas no facturadas', small: 'Reuniones, viajes, papeles' },
+        { t: 'Multiplicá por tu valor hora', small: 'Lo que cobrás por trabajar' },
+        { t: 'Ese es el costo de no facturar', small: 'Plata que se escapa sola' }
+      ] },
+      { type: 'rows', items: [{ k: 'l', v: '✓', t: 'La calculadora lo hace por vos', small: 'Completá y te devolvemos tu número.' }] },
+      { type: 'close', pill: 'Calculadora', lines: ['Comentá', { grad: 'HORAS' }, 'y te la mando.'], cta: 'Comentá HORAS y te la mando', sub: 'Respuesta el mismo día · urquisoft.com' }
+    ],
+    caption: '¿Cuánto te cuesta cada hora que no facturás? Las horas no facturadas —reuniones, viajes, papeles— se suman y se convierten en plata que se escapa sola. Te comparto una calculadora que lo hace por vos: Anotás tus horas no facturadas. La multiplicás por tu valor hora. Y ves cuánto te cuesta no facturar. Guardá este post. Comentá HORAS y te la mando.',
+    hashtags: ['#horas', '#productividad', '#pymes', '#gestion', '#costos']
+  },
+  {
+    id: 37, theme: 'light', tag: 'VALORES · 2026',
+    title: 'Vos sos el dueño de tus datos, siempre',
+    slides: [
+      { type: 'cover', coverStyle: 'quote', kicker: 'Nuestro principio', lines: ['VOS SOS EL', 'DUEÑO DE', 'TUS <span class="mag">DATOS</span>'], sub: 'Una regla que no negociamos.', cta: 'Deslizá para conocerla' },
+      { type: 'rows', items: [{ k: 'l', v: '✓', t: 'Tus datos son tuyos, siempre', small: 'Clientes, ventas, stock e historial.' }] },
+      { type: 'rows', items: [{ k: 'l', v: '✓', t: 'Los exportás cuando quieras', small: 'Sin retenerte nada, sin letra chica.' }] },
+      { type: 'close', pill: 'Confianza', lines: ['Tu negocio, ordenado.', { grad: 'Tu información, en tus manos.' }], cta: 'Escribinos y ordenamos el tuyo', sub: 'urquisoft.com' }
+    ],
+    caption: 'Vos sos el dueño de tus datos, siempre. Es una regla que no negociamos: tus clientes, tus ventas y tu stock son tuyos. Nosotros los cuidamos con copias de seguridad incluidas. Y si mañana querés exportar todo, se exporta: sin retenerte nada, sin letra chica. Tu negocio, ordenado. Tu información, en tus manos. Escribinos y empezá a ordenar el tuyo.',
+    hashtags: ['#datos', '#confianza', '#transparencia', '#pymes', '#gestion']
+  },
+  {
+    id: 38, theme: 'dark', tag: 'EDUCACIÓN · 2026',
+    title: 'Código de barras y WMS: el stock que se ordena solo',
+    slides: [
+      { type: 'cover', kicker: 'Educación · Inventario', lines: ['CÓDIGO DE BARRAS', 'Y WMS: EL STOCK', 'QUE SE ORDENA <span class="mag">SOLO</span>'], sub: 'Del depósito al mostrador, sin contar a mano.', cta: 'Deslizá para entenderlo' },
+      { type: 'problem', pill: 'La duda', statement: 'Contás el stock a mano,<br>estante por estante.', lead: 'Y el número nunca coincide con la caja.' },
+      { type: 'solution', pill: 'Lo básico', chips: ['Código de barras', 'Lectura por escáner', 'Stock en tiempo real'], statement: 'Cada producto con su <span class="teal">código</span>, cada movimiento registrado.' },
+      { type: 'rows', items: [
+        { k: 'l', v: '✓', t: 'El WMS ordena el depósito', small: 'Ubicaciones, recepción y salidas, sin papeles.' },
+        { k: 'l', v: '✓', t: 'Cada producto, escaneado', small: 'Entra y sale con su código, sin contar a mano.' }
+      ] },
+      { type: 'close', pill: 'Inventario sin contar a mano', lines: ['El stock se ordena', { grad: 'cuando cada producto tiene su código.' }], cta: 'Escribinos y te lo mostramos', sub: 'urquisoft.com' }
+    ],
+    caption: 'Código de barras y WMS: ¿seguís contando el stock a mano? Contar estante por estante te deja dos problemas: errores y horas perdidas. Con código de barras y un WMS: Cada producto tiene su código y se escanea al entrar y al salir. Las ubicaciones del depósito quedan ordenadas. El stock se actualiza en tiempo real, sin contar a mano. Escribinos y te lo mostramos aplicado a tu negocio.',
+    hashtags: ['#codigodebarras', '#wms', '#inventario', '#pymes', '#gestion']
+  },
+  {
+    id: 39, theme: 'dark', tag: 'CASO REAL · 2026',
+    title: 'Del caos al orden: un comercio en 4 pasos',
+    slides: [
+      { type: 'cover', kicker: 'Caso real · Nuestro proceso', lines: ['DEL CAOS', 'AL ORDEN', 'EN <span class="mag">4 PASOS</span>'], sub: 'Así se ordenó un comercio real.', cta: 'Deslizá para ver el caso' },
+      { type: 'rows', items: [{ k: 'n', v: '1', t: 'Reunión inicial sin cargo', small: 'Conocemos el negocio y detectamos dónde se pierde plata.' }] },
+      { type: 'rows', items: [{ k: 'n', v: '2', t: 'Propuesta a tu medida', small: 'Solución, tiempos y precio final, sin compromiso.' }] },
+      { type: 'rows', items: [{ k: 'n', v: '3', t: 'Instalación y capacitación', small: 'Migramos TUS datos y te enseñamos a usarlo.' }] },
+      { type: 'rows', items: [{ k: 'n', v: '4', t: 'Acompañamiento mensual', small: 'Soporte y mejoras. El sistema crece con tu negocio.' }] },
+      { type: 'close', pill: 'Antes, durante y después', lines: ['No entregamos software y nos despedimos.', { grad: 'Trabajamos con vos antes, durante y después.' }], cta: 'Escribinos y coordinamos la primera reunión', sub: 'urquisoft.com' }
+    ],
+    caption: 'Del caos al orden: así se ordenó un comercio real, en 4 pasos. 1. Reunión inicial sin cargo: conocemos el negocio y detectamos dónde se pierde plata. 2. Propuesta a tu medida: solución, tiempos y precio final, sin compromiso. 3. Instalación y capacitación: migramos tus datos y te enseñamos a usarlo. 4. Acompañamiento mensual: soporte y mejoras, con el sistema creciendo con tu negocio. No entregamos software y nos despedimos: trabajamos con vos antes, durante y después. Escribinos y coordinamos la primera reunión.',
+    hashtags: ['#transformaciondigital', '#pymes', '#casosdeexito', '#gestion', '#comercios'],
+    liCaption: 'Cambiar la forma de gestionar un negocio da miedo, por eso el proceso es simple: una reunión inicial sin cargo para detectar dónde se pierde plata, una propuesta a medida con tiempos y precio final, la instalación con migración de datos y capacitación, y un acompañamiento mensual con soporte y mejoras. No entregamos software y nos despedimos: trabajamos con cada comercio antes, durante y después. Escribinos y coordinamos la primera reunión.',
+    liSlides: [
+      { type: 'cover', kicker: 'Nuestro proceso', lines: ['ORDENAR TU NEGOCIO', 'EN <span class="mag">4 PASOS</span>'], sub: 'Simple por diseño, de principio a fin.', cta: 'Deslizá para ver los pasos' },
+      { type: 'rows', items: [
+        { k: 'n', v: '1', t: 'Reunión inicial sin cargo', small: 'Detectamos dónde se pierde plata.' },
+        { k: 'n', v: '2', t: 'Propuesta a tu medida', small: 'Solución, tiempos y precio final.' },
+        { k: 'n', v: '3', t: 'Instalación y capacitación', small: 'Migramos tus datos y te enseñamos.' },
+        { k: 'n', v: '4', t: 'Acompañamiento mensual', small: 'Soporte y mejoras continuas.' }
+      ] },
+      { type: 'close', pill: 'Antes, durante y después', lines: ['Un proceso simple', { grad: 'de principio a fin.' }], cta: 'Escribinos y coordinamos la primera reunión', sub: 'urquisoft.com' }
+    ]
+  },
+  {
+    id: 40, theme: 'light', tag: 'ENCUESTA · 2026',
+    title: '¿Qué tema te gustaría que expliquemos el mes que viene?',
+    slides: [
+      { type: 'cover', coverStyle: 'left', ghost: 'A', kicker: 'Encuesta de fin de mes', lines: ['¿QUÉ TEMA TE GUSTARÍA', 'QUE EXPLIQUEMOS', 'EL MES QUE <span class="mag">VIENE</span>?'], sub: 'Respondé con la letra en comentarios.', cta: 'Deslizá y elegí' },
+      { type: 'options', items: [{ v: 'A', t: 'Cómo controlar el stock sin contar a mano.' }] },
+      { type: 'options', items: [{ v: 'B', t: 'Cómo cobrar sin perseguir a nadie.' }] },
+      { type: 'options', items: [{ v: 'C', t: 'Cómo armar precios que cubran todo.' }] },
+      { type: 'options', items: [{ v: 'D', t: 'Cómo ordenar los turnos de tus clientes.' }] },
+      { type: 'close', pill: 'Votá', lines: ['El tema más votado', { grad: 'es el próximo post.' }], cta: 'Respondé con la letra en comentarios', sub: 'Tu voto define el próximo mes · urquisoft.com' }
+    ],
+    caption: 'Encuesta de fin de mes: ¿qué tema te gustaría que expliquemos el mes que viene? A) Cómo controlar el stock sin contar a mano. B) Cómo cobrar sin perseguir a nadie. C) Cómo armar precios que cubran todo. D) Cómo ordenar los turnos de tus clientes. Respondé con la letra en comentarios. El tema más votado es el próximo post.',
+    hashtags: ['#encuesta', '#pymes', '#comercios', '#gestion', '#contenido']
   }
 ];
