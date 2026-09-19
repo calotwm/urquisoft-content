@@ -63,6 +63,7 @@ body.magenta{
   --shot-border:rgba(255,255,255,0.6);
 }
 body.magenta .logo{filter:brightness(0)}
+body.light .logo{filter:invert(1) hue-rotate(195deg) saturate(3) brightness(0.72)}
 body.magenta .ghost{color:rgba(0,0,0,0.12)}
 body.magenta .ghost-char{color:rgba(0,0,0,0.14)}
 body.magenta .cover.quote h1::before{color:rgba(0,0,0,0.14)}
@@ -263,7 +264,6 @@ ${FONT}
   <div class="edge"></div>
   <header>
     <div class="brand">${LOGO}</div>
-    <div class="tag">${tag}</div>
   </header>
   <main class="${mainHtml.cls}">
 ${mainHtml.body}

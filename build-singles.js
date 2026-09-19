@@ -3,7 +3,7 @@
 const path = require('path');
 const fs = require('fs');
 const { html, ensureDir, root } = require('./brand');
-const SINGLES = require('./singles');
+const SINGLES = require(process.argv[2] || './singles');
 
 const SINGLE_EXTRA = `
 .single{align-items:flex-start}

@@ -3,7 +3,7 @@
 const path = require('path');
 const fs = require('fs');
 const { writeSlides, ensureDir, root } = require('./brand');
-const POSTS = require('./posts');
+const POSTS = require(process.argv[2] || './posts');
 
 // Copia la captura real de bibliotheca al assets raíz si todavía no está (usada por el POST 2).
 const shotSrc = path.join(root, 'post4', 'assets', 'bibliotheca.png');
@@ -130,6 +130,20 @@ ${chips}
       <div class="results">${s.results.map(r => `<div class="res"><span class="ri">${r.ic || '→'}</span><div class="rt">${r.t}${r.small ? `<small>${r.small}</small>` : ''}</div></div>`).join('')}</div>
     </div>` };
     }
+    case 'poster':
+      return { cls: 'poster', body: `    ${s.sticker ? `<div class="sticker">${s.sticker}</div>` : ''}
+    <div class="huge">${s.lines.join('<br>')}</div>
+    ${s.sub ? `<div class="psub">${s.sub}</div>` : ''}
+    ${s.cta ? `<div class="cta">${s.cta}</div>` : ''}` };
+    case 'versus':
+      return { cls: 'versus', body: `    <div class="vcard a"><h3>${s.a.h}</h3><p>${s.a.t}</p></div>
+    <div class="vs">VS</div>
+    <div class="vcard b"><h3>${s.b.h}</h3><p>${s.b.t}</p></div>
+    ${s.note ? `<div class="vnote">${s.note}</div>` : ''}` };
+    case 'bignum':
+      return { cls: 'bignum', body: `    <div class="n">${s.num}</div>
+    <div class="l">${s.label}</div>
+    ${s.small ? `<div class="psub">${s.small}</div>` : ''}` };
     default:
       throw new Error('tipo de slide desconocido: ' + s.type);
   }
@@ -147,7 +161,7 @@ for (const post of POSTS) {
       pipOn: i + 1,
       swipe: i === n - 1 ? 'Última' : 'Seguí',
       opts: { theme: post.theme || 'dark', pips: n },
-      extraCss: post.extraCss
+      extraCss: require('./v2css') + (post.extraCss || '')
     };
   });
   const dir = path.join(root, 'posts', `post-${String(post.id).padStart(2, '0')}`);
