@@ -180,25 +180,6 @@ module.exports = [
     hashtags: ['#serviciotecnico', '#talleres', '#presupuestos', '#gestion', '#pymes']
   },
   {
-    id: 13, theme: 'dark', tag: 'CASO ESTRELLA · 2026', extraCss: '.cover h1{font-size:56px}',
-    title: 'Un estudio contable cargaba extractos a mano, movimiento por movimiento',
-    slides: [
-      { type: 'cover', kicker: 'Caso estrella · Estudio contable', lines: ['UN ESTUDIO CONTABLE', 'CARGABA EXTRACTOS', 'A MANO, MOVIMIENTO POR <span class="mag">MOVIMIENTO</span>'], sub: 'Extractos a asientos, automático.', cta: 'Deslizá para ver el caso' },
-      { type: 'rows', items: [
-        { k: 'l', v: '✕', t: 'Horas mecánicas por mes' },
-        { k: 'l', v: '✕', t: 'Errores de imputación' },
-        { k: 'l', v: '✕', t: 'Cada banco es un mundo' }
-      ] },
-      { type: 'solution', pill: 'La solución', statement: 'Se sube el PDF del banco y el sistema <span class="teal">extrae y clasifica</span> los movimientos solo.' },
-      { type: 'rows', items: [{ k: 'l', v: '✓', t: 'Las reglas del estudio', small: 'Palabras clave, CUIT, gastos bancarios y sueldos.' }] },
-      { type: 'rows', items: [{ k: 'l', v: '✓', t: 'Revisión en un clic', small: 'Lo correcto se aprueba; lo corregido queda aprendido.' }] },
-      { type: 'rows', items: [{ k: 'l', v: '✓', t: 'Export listo para Xubio', small: 'Asientos balanceados, validados contra tu plantilla.' }] },
-      { type: 'close', pill: '340 pruebas automáticas', lines: ['Más de 340 pruebas automáticas', { grad: 'antes de tocar un extracto.' }], cta: 'Escribinos y te lo mostramos con tus extractos', sub: 'Se publica con permiso del cliente · urquisoft.com' }
-    ],
-    caption: 'Un estudio contable cargaba extractos a mano, movimiento por movimiento. Horas mecánicas y errores que después cuestan caro. Extractos a Asientos convierte el PDF del banco en asientos listos para Xubio: Extrae movimientos automáticamente. Clasifica con las reglas del estudio. Revisión en un clic, y aprende de cada corrección. Export balanceado, validado contra tu plantilla. Más de 340 pruebas automáticas antes de tocar un extracto. Escribinos y te lo mostramos con extractos reales.',
-    hashtags: ['#estudioscontables', '#xubio', '#contabilidad', '#automatizacion', '#pymes']
-  },
-  {
     id: 14, theme: 'light', tag: 'PRECIOS · 2026',
     title: 'Precios claros, sin letra chica',
     slides: [

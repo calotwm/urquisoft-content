@@ -37,7 +37,9 @@ function decorHtml(s) {
   return `<div class="decors">${parts.join('')}</div>`;
 }
 
-for (const s of SINGLES) {
+const OVER = require('./singles-v2');
+for (const s0 of SINGLES) {
+  const s = Object.assign({}, s0, OVER[s0.id] || {});
   const id = String(s.id).padStart(2, '0');
   const titleHtml = s.title.map((ln, i) => `<span>${ln}</span>${i < s.title.length - 1 ? '<br>' : ''}`).join('');
   const main = {

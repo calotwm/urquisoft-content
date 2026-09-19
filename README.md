@@ -69,7 +69,7 @@ Los HTML se regeneran por builder. Para renderizar a PNG con Chrome headless (aj
 | 10 | POV: el dueño cerrando la caja un viernes | Humor | **light** |
 | 11 | 4 señales de que tu negocio necesita un sistema | Checklist | magenta |
 | 12 | Talleres y técnicos: adiós a los papelitos de presupuesto | Solución por rubro | dark |
-| 13 | Un estudio contable cargaba extractos a mano | Caso estrella | dark |
+| 13 | ~~Estudio contable~~ | Eliminado (sin permiso del cliente) | — |
 | 14 | Precios claros, sin letra chica | Precios | **light** |
 | 15 | Tu WhatsApp puede vender mientras dormís | Proyecto nuevo | magenta |
 | 16 | La libreta de deudores: el agujero negro de tu negocio | El problema | dark |

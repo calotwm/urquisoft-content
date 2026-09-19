@@ -149,7 +149,9 @@ ${chips}
   }
 }
 
+const COVERS = require('./covers-v2');
 for (const post of POSTS) {
+  if (COVERS[post.id] && post.slides[0].type === 'cover') post.slides[0] = COVERS[post.id];
   const n = post.slides.length;
   const slides = post.slides.map((s, i) => {
     const main = renderSlide(s);

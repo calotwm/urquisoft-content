@@ -6,7 +6,7 @@ module.exports = [
     id: 21, theme: 'dark', tag: 'RENTABILIDAD',
     title: 'Vendés mucho. ¿Ganás poco?',
     slides: [
-      { type: 'poster', lines: ['VENDÉS', 'MUCHO.', '¿GANÁS <span class="mag">POCO</span>?'], sub: 'Ojo con el margen.', cta: 'Deslizá', sticker: 'MARGEN' },
+      { type: 'poster', lines: ['VENDÉS', 'MUCHO.', '¿GANÁS', '<span class="mag">POCO</span>?'], sub: 'Ojo con el margen.', cta: 'Deslizá', sticker: 'MARGEN' },
       { type: 'versus', a: { h: '100 u.', t: 'Margen 5%' }, b: { h: '30 u.', t: 'Margen 40%' }, note: '¿Cuál te conviene?' },
       { type: 'poster', lines: ['MIRÁS LO', 'QUE <span class="mag">VENDÉS</span>.', 'NO LO QUE', '<span class="teal">QUEDA</span>.'] },
       { type: 'solution', pill: 'Con sistema', chips: ['Costo y precio', 'Margen solo', 'Ranking'], statement: 'Sabé qué <span class="teal">te deja plata</span>.' },
@@ -70,7 +70,7 @@ module.exports = [
     id: 25, theme: 'light', tag: 'SIN EL DUEÑO',
     title: 'Si no estás, ¿funciona?',
     slides: [
-      { type: 'poster', lines: ['SI VOS', 'NO ESTÁS,', '¿<span class="mag">FUNCIONA</span>?'], sub: 'Todo depende de vos = no crece.', cta: 'Deslizá', sticker: 'PANEL' },
+      { type: 'poster', lines: ['SI VOS', 'NO ESTÁS,', '¿ANDA', '<span class="mag">TODO</span>?'], sub: 'Todo depende de vos = no crece.', cta: 'Deslizá', sticker: 'PANEL' },
       { type: 'poster', lines: ['«SI NO', 'ESTOY YO,', '<span class="mag">NO HAY</span>', '<span class="mag">NÚMEROS»</span>'] },
       { type: 'versus', a: { h: 'En tu cabeza', t: 'Precios, clientes, excepciones' }, b: { h: 'En el sistema', t: 'Roles, permisos, historial' }, note: 'Que lo sepa el negocio.' },
       { type: 'bignum', num: '1', label: 'panel. todo el negocio.', small: 'Ventas · caja · stock · alertas' },
