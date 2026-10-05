@@ -55,15 +55,15 @@ separate concern from the homogeneous `posts-v6.js` data module. That yields a c
 
 ## Phase 3 — Editorial data, Week 4 (Work Unit 3)
 
-- [ ] **3.1 Append ids 36–40**. Tool 36 (`pdf:true`, `dmKeyword:'HORAS'`, static `metrics`+`flow`);
+- [x] **3.1 Append ids 36–40**. Tool 36 (`pdf:true`, `dmKeyword:'HORAS'`, static `metrics`+`flow`);
   valores 37; educación 38; LI-lead 39 (`liCaption`+`liSlides`); encuesta 40 (`options`).
   **Acceptance**: build emits all five. Slice 3.
 
 ## Phase 4 — Verification (Work Unit 3)
 
-- [ ] **4.1** `node build-all-v6.js` → 20 dirs `posts/post-21..40/` each with `src/*.html` + `caption.txt`. Slice 3.
-- [ ] **4.2** `powershell -File render-hi.ps1` → PNGs 21–40; `posts/post-21/26/31/36/pdf/*.pdf` exist. Slice 3.
-- [ ] **4.3** Inspect: `caption.txt` has 5 hashtags, no `#urquisoft`; `caption-linkedin.txt` has no
+- [x] **4.1** `node build-all-v6.js` → 20 dirs `posts/post-21..40/` each with `src/*.html` + `caption.txt`. Slice 3.
+- [x] **4.2** `powershell -File render-hi.ps1` → PNGs 21–40; `posts/post-21/26/31/36/pdf/*.pdf` exist. Slice 3.
+- [x] **4.3** Inspect: `caption.txt` has 5 hashtags, no `#urquisoft`; `caption-linkedin.txt` has no
   hashtag line; voseo/« » throughout. Slice 3.
 
 ## Dependencies
